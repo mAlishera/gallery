@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+ .my {
+   position: relative;
+   display: inline-block;
+   vertical-align: top;
+   margin: 30px;
+   width: 360px;
+   height: 500px;
+   background: #F5F5F5;
+ }
+
+ .picture {
+   width: 360px;
+   height: 380px;
+   overflow: hidden;
+ }
+
+ .img1 {
+   width: 300px;
+   margin: 30px;
+ }
+
+ .text {
+   position: absolute;
+   bottom: 0;
+   left: 20px;
+ }
+
+.text p {
+  font-size: 16px;
+  font-weight: 700;
+}

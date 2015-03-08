@@ -2,6 +2,12 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  resources :exhibitions, only: [:index, :show]
+  resources :aquarelles, controller: 'exhibitions', type: 'Aquarelle', only: [:index, :show]
+  resources :gouaches, controller: 'exhibitions', type: 'Gouache', only: [:index, :show]
+  resources :graphics, controller: 'exhibitions', type: 'Graphics', only: [:index, :show]
+  resources :grattages, controller: 'exhibitions', type: 'Grattage', only: [:index, :show]
+  resources :oils, controller: 'exhibitions', type: 'Oil', only: [:index, :show]
 
   root 'exhibitions#index'
 

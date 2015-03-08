@@ -1,0 +1,14 @@
+
+<% @exhibitions.each do |e| %>
+
+<div class="my">
+  <div class="picture">
+<%= image_tag e.picture_url, :class => "img1" %>
+  </div>
+<div class="text">
+<p><%= link_to(e.name, e) %></p>
+<p><%= e.description %></p>
+</div>
+</div>
+
+<% end %>
