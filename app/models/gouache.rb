@@ -1,0 +1,2 @@
+class Gouache < Exhibition
+end

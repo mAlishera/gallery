@@ -1,0 +1,17 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  min_messages: warning
+
+development:
+  <<: *defaults
+  database: gallery_development
+
+production:
+  <<: *defaults
+  database: gallery_production
+
+test:
+  <<: *defaults
+  database: gallery_test

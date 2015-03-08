@@ -1,0 +1,2 @@
+class Aquarelle < Exhibition
+end
