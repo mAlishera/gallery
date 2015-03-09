@@ -1,14 +1,37 @@
 
+<header class="main-header clearfix">
+  <nav>
+    <ul class="main-navigation">
+      <li>
+        <p><%= link_to("Акварель", aquarelles_path) %></p>
+      </li>
+      <li>
+        <p><%= link_to("Гуашь", gouaches_path) %></p>
+      </li>
+      <li>
+        <p><%= link_to("Графика", graphics_path) %></p>
+      </li>
+      <li>
+        <p><%= link_to("Граттаж", grattages_path) %></p>
+      </li>
+      <li>
+        <p><%= link_to("Масло", oils_path) %></p>
+      </li>
+    </ul>
+  </nav>
+</header>
+
 <% @exhibitions.each do |e| %>
 
 <div class="my">
   <div class="picture">
-<%= image_tag e.picture_url, :class => "img1" %>
+    <p><%= link_to(e.name, e) %></p>
+    <%= image_tag e.picture_url, :class => "img1" %>
   </div>
-<div class="text">
-<p><%= link_to(e.name, e) %></p>
-<p><%= e.description %></p>
-</div>
+  <div class="text">
+    <p><%= e.description %></p>
+    <p><%= money_without_cents_and_with_symbol e.price %></p>
+  </div>
 </div>
 
 <% end %>

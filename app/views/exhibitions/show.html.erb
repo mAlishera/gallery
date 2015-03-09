@@ -1,9 +1,9 @@
-<div class="my">
-  <div class="picture">
-<%= image_tag @exhibition.picture_url, :class => "img1" %>
+<div class="my_show clearfix">
+  <div class="text_show">
+    <p><%= @exhibition.name %></p>
+    <p><%= @exhibition.description %></p>
   </div>
-<div class="text">
-<p><%= @exhibition.name %></p>
-<p><%= @exhibition.description %></p>
-</div>
+  <div class="picture_show">
+    <%= image_tag @exhibition.picture_url, :class => "img" %>
+  </div>
 </div>

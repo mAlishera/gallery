@@ -13,24 +13,103 @@
  *= require_tree .
  *= require_self
  */
+
+ .clearfix:after {
+   content: '';
+   display: table;
+   clear: both;
+ }
+
+ .main-navigation {
+   position: relative;
+   padding: 0;
+   font-size: 0;
+ }
+
+ .main-navigation li {
+   display: inline-block;
+
+   width: 20%;
+   padding-top: 14px;
+   padding-bottom: 16px;
+
+   vertical-align: top;
+ }
+
+ .main-navigation a {
+   display: block;
+
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: 700;
+
+   text-align: center;
+   text-decoration: none;
+
+   color: #000;
+   outline: none;
+ }
+
+ .main-navigation a:hover {
+   color: #a8c9df;
+ }
+
+ .main-navigation li .active {
+   color: #81b3d2;
+ }
+
  .my {
    position: relative;
    display: inline-block;
    vertical-align: top;
    margin: 30px;
    width: 360px;
-   height: 500px;
+   height: 590px;
    background: #F5F5F5;
+ }
+
+ .my_show {
+   margin: 60px;
+   width: 1100px;
+   height: 1200px;
  }
 
  .picture {
    width: 360px;
-   height: 380px;
+   height: 490px;
    overflow: hidden;
+ }
+
+ .picture_show {
+   float: left;
+   width: 600px;
+   height: 1000px;
+ }
+
+ .picture a {
+   display: block;
+   margin-top: 20px;
+
+   font-size: 16px;
+   line-height: 21px;
+   font-weight: 700;
+
+   text-align: center;
+   text-decoration: none;
+
+   color: #000;
+   outline: none;
  }
 
  .img1 {
    width: 300px;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+ }
+
+ .img {
+   width: 600px;
    margin: 30px;
  }
 
@@ -40,7 +119,17 @@
    left: 20px;
  }
 
+ .text_show {
+   float: right;
+ }
+
+
 .text p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.text_show p {
   font-size: 16px;
   font-weight: 700;
 }
