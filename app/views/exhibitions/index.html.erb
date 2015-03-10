@@ -3,35 +3,35 @@
   <nav>
     <ul class="main-navigation">
       <li>
-        <p><%= link_to("Акварель", aquarelles_path) %></p>
+        <p class="nav-a"><%= link_to("Акварель", aquarelles_path, class: cp(aquarelles_path)) %></p>
       </li>
       <li>
-        <p><%= link_to("Гуашь", gouaches_path) %></p>
+        <p class="nav-a"><%= link_to("Гуашь", gouaches_path, class: cp(gouaches_path)) %></p>
       </li>
       <li>
-        <p><%= link_to("Графика", graphics_path) %></p>
+        <p class="nav-a"><%= link_to("Графика", graphics_path, class: cp(graphics_path)) %></p>
       </li>
       <li>
-        <p><%= link_to("Граттаж", grattages_path) %></p>
+        <p class="nav-a"><%= link_to("Граттаж", grattages_path, class: cp(grattages_path)) %></p>
       </li>
       <li>
-        <p><%= link_to("Масло", oils_path) %></p>
-      </li>
+        <p class="nav-a"><%= link_to("Масло", oils_path, class: cp(oils_path)) %></p>
     </ul>
   </nav>
 </header>
 
+<div class="category-pic">
 <% @exhibitions.each do |e| %>
-
 <div class="my">
-  <div class="picture">
+  <div class="picture2">
     <p><%= link_to(e.name, e) %></p>
-    <%= image_tag e.picture_url, :class => "img1" %>
-  </div>
-  <div class="text">
-    <p><%= e.description %></p>
-    <p><%= money_without_cents_and_with_symbol e.price %></p>
+    <div class="text2 clearfix">
+      <p class="left"><%= e.description %></p>
+      <p class="right"><%= money_without_cents_and_with_symbol e.price %></p>
+    </div>
+
+    <%= image_tag e.picture_url, :class => "img2" %>
   </div>
 </div>
-
 <% end %>
+</div>

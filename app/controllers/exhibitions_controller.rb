@@ -2,15 +2,15 @@ class ExhibitionsController < ApplicationController
 
   def index
     if params[:type] == 'Aquarelle'
-      @exhibitions = Exhibition.where(type: "Aquarelle")
+      @exhibitions = Aquarelle.all
     elsif params[:type] == 'Oil'
-      @exhibitions = Exhibition.where(type: "Oil")
+      @exhibitions = Oil.all
     elsif params[:type] == 'Grattage'
-      @exhibitions = Exhibition.where(type: "Grattage")
+      @exhibitions = Grattage.all
     elsif params[:type] == 'Gouache'
-      @exhibitions = Exhibition.where(type: "Gouache")
+      @exhibitions = Gouache.all
     elsif params[:type] == 'Graphics'
-      @exhibitions = Exhibition.where(type: "Graphics")
+      @exhibitions = Graphics.all
     else
       @exhibitions = Exhibition.all
     end
