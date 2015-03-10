@@ -1,10 +1,9 @@
 ActiveAdmin.register Oil do
 
-
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
-  permit_params :name, :description, :picture, :type, :created_at, :updated_at
+  permit_params :name, :description, :price_cents, :picture, :type, :created_at, :updated_at
   #
   # or
   #
