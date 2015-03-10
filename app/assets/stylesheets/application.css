@@ -19,6 +19,15 @@
    font-family: 'Cuprum', sans-serif;
  }
 
+ .wrapper {
+   min-width: 768px;
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0;
+
+   text-transform: uppercase;
+ }
+
  .clearfix:after {
    content: '';
    display: table;
