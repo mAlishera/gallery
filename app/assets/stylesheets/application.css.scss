@@ -74,12 +74,16 @@
    margin-bottom: 10px;
  }
 
+ .name-a a:hover {
+   color: #B5B5B5;
+ }
+
  .main-navigation a:hover {
    color: #B5B5B5;
  }
 
  .current {
-   color: red !important;
+   color: #B5B5B5 !important;
  }
 
  .my {
