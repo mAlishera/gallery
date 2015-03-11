@@ -1,5 +1,5 @@
 
-<header class="main-header clearfix">
+<div class="main-header clearfix">
   <nav>
     <ul class="main-navigation">
       <li>
@@ -8,10 +8,10 @@
           <div class="my-category">
           <div class="picture">
             <p class="name-a"><%= link_to(@aqua.name, @aqua) %></p>
-            <%= image_tag @aqua.picture_url, :class => "img1" %>
+            <%= link_to((image_tag @aqua.picture_url, :class => "img1"), @aqua) %>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("И еще #{Aquarelle.all.length - 1} картин...", aquarelles_path) %></p>
+            <p class="more"><%= link_to("Посмотреть все картины раздела 'Акварель'", aquarelles_path) %></p>
           </div>
         </div>
         </div>
@@ -22,10 +22,10 @@
           <div class="my-category">
           <div class="picture">
             <p class="name-a"><%= link_to(@gouache.name, @gouache) %></p>
-            <%= image_tag @gouache.picture_url, :class => "img1" %>
+            <%= link_to((image_tag @gouache.picture_url, :class => "img1"), @gouache) %>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("И еще #{Gouache.all.length - 1} картин...", gouaches_path) %></p>
+            <p class="more"><%= link_to("Посмотреть все картины раздела 'Гуашь'", gouaches_path) %></p>
           </div>
         </div>
         </div>
@@ -36,14 +36,13 @@
           <div class="my-category">
           <div class="picture">
             <p class="name-a"><%= link_to(@graphics.name, @graphics) %></p>
-            <%= image_tag @graphics.picture_url, :class => "img1" %>
+            <%= link_to((image_tag @graphics.picture_url, :class => "img1"), @graphics) %>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("И еще #{Graphics.all.length - 1} картин...", graphics_path) %></p>
+            <p class="more"><%= link_to("Посмотреть все картины раздела 'Графика'", graphics_path) %></p>
           </div>
         </div>
         </div>
-
       </li>
       <li>
         <p class="nav-a"><%= link_to("Граттаж", grattages_path) %></p>
@@ -51,14 +50,13 @@
         <div class="my-category">
           <div class="picture">
             <p class="name-a"><%= link_to(@grattage.name, @grattage) %></p>
-            <%= image_tag @grattage.picture_url, :class => "img1" %>
+            <%= link_to((image_tag @grattage.picture_url, :class => "img1"), @grattage) %>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("И еще #{Grattage.all.length - 1} картин...", grattages_path) %></p>
+            <p class="more"><%= link_to("Посмотреть все картины раздела 'Граттаж'", grattages_path) %></p>
           </div>
         </div>
         </div>
-
       </li>
       <li>
         <p class="nav-a"><%= link_to("Масло", oils_path) %></p>
@@ -66,15 +64,14 @@
           <div class="my-category">
           <div class="picture">
             <p class="name-a"><%= link_to(@oil.name, @oil) %></p>
-            <%= image_tag @oil.picture_url, :class => "img1" %>
+            <%= link_to((image_tag @oil.picture_url, :class => "img1"), @oil) %>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("И еще #{Oil.all.length - 1} картин...", oils_path) %></p>
+            <p class="more"><%= link_to("Посмотреть все картины раздела 'Масло'", oils_path) %></p>
           </div>
         </div>
         </div>
-
       </li>
     </ul>
   </nav>
-</header>
+</div>
