@@ -21,10 +21,10 @@
   <%= yield %>
 
   </div>
-  
+
   <footer>
     <div class="info">
-      <div class="general">Общая информация</div>
+      <div class="general"><%= link_to("Общая информация", general_static_pages_path) %></div>
       <div class="share"><%= social_share_button_tag("My Home Page", :url => "http://vk.com") %></div>
     </div>
   </footer>

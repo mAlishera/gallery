@@ -15,20 +15,34 @@
  */
 
 
+ html {
+   height: 100%;
+ }
+
+ * html body {
+   height: 100%;
+ }
+
  body {
+   min-height: 100%;
+   position: relative;
    background-color: #EEDFCC;
    background-image: asset-data-url("white_wall.png");
    font-family: 'Cuprum', sans-serif;
  }
 
  .wrapper {
-   position: relative;
    min-width: 768px;
    max-width: 1280px;
    margin: 0 auto;
    padding: 0;
-   margin-bottom: 90px;
    text-transform: uppercase;
+ }
+
+ .wrapper:after {
+   content: '';
+   width: 100%;
+   height: 200px;
  }
 
  .clearfix:after {
@@ -36,6 +50,8 @@
    display: table;
    clear: both;
  }
+
+
 
  .title {
   position: relative;
@@ -79,6 +95,9 @@
 }
 
 footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
   height: 100px;
   background-image: asset-data-url("pinstriped_suit.png");
   font-family: 'Cuprum', sans-serif;
@@ -146,7 +165,6 @@ footer {
  }
 
  .my {
-   position: relative;
    display: inline-block;
    vertical-align: top;
    margin: 30px;
@@ -176,7 +194,7 @@ footer {
  }
 
  .picture {
-   height: 320px;
+   height: 400px;
    overflow: hidden;
  }
 
@@ -229,12 +247,6 @@ footer {
  .img {
    width: 600px;
    margin: 30px;
- }
-
- .text {
-   position: absolute;
-   bottom: 0;
-   left: 20px;
  }
 
  .text2 {

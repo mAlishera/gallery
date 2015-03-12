@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   resources :grattages, controller: 'exhibitions', type: 'Grattage', only: [:index, :show]
   resources :oils, controller: 'exhibitions', type: 'Oil', only: [:index, :show]
 
+  resource :static_pages, only: [:index] do
+    get :general
+  end
+
   # root 'exhibitions#index'
   root 'static_pages#index'
   # The priority is based upon order of creation: first created -> highest priority.

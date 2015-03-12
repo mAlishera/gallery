@@ -6,4 +6,6 @@ class StaticPagesController < ApplicationController
     @grattage = Grattage.first
     @gouache = Gouache.first
   end
+  def general
+  end
 end
