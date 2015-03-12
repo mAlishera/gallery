@@ -3,12 +3,17 @@
 <head>
   <title>Gallery</title>
   <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="wrapper">
+  <header>
+    <div class="title"><%= link_to("Art gallery", root_path) %></div>
+  </header>
+
+  <div class="wrapper clearfix">
 
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
@@ -16,5 +21,12 @@
   <%= yield %>
 
   </div>
+  
+  <footer>
+    <div class="info">
+      <div class="general">Общая информация</div>
+      <div class="share"><%= social_share_button_tag("My Home Page", :url => "http://vk.com") %></div>
+    </div>
+  </footer>
 </body>
 </html>
