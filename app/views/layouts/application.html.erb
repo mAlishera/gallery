@@ -10,7 +10,11 @@
 </head>
 <body>
   <header>
-    <div class="phone">+7 926 900 4689</div>
+    <div class="contacts clearfix">
+      <div class="phone">+7 915 216 9463</div>
+      <div class="mail"><%= mail_to("lvt@land.ru") %></div>
+      <div class="name"><%= link_to("Лидия Филатова (Тихонравова)", root_path) %></div>
+    </div>
     <div class="title"><%= link_to("Art gallery", root_path) %></div>
   </header>
 
@@ -25,7 +29,7 @@
 
   <footer>
     <div class="info-left">
-      <div class="general"><%= link_to("Общая информация", general_static_pages_path) %></div>
+      <div class="general"><%= link_to("О сайте", general_static_pages_path) %></div>
     </div>
     <div class="info-right">
       <div class="share"><%= social_share_button_tag("My Home Page", :url => "http://vk.com") %></div>

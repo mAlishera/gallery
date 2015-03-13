@@ -4,72 +4,62 @@
     <ul class="main-navigation">
       <li>
         <p class="nav-a"><%= link_to("Акварель", aquarelles_path) %></p>
-        <div class="category-pic">
           <div class="my-category">
           <div class="picture">
-            <p class="name-a"><%= link_to(@aqua.name, @aqua) %></p>
             <%= link_to((image_tag @aqua.picture_url, :class => "img1"), @aqua) %>
+            <div class="name-a"><%= link_to(@aqua.name, @aqua) %></div>
           </div>
-          <div class="text">
-            <p class="more"><%= link_to("Посмотреть все картины раздела 'Акварель'", aquarelles_path) %></p>
-          </div>
-        </div>
+          <div class="more"><%= link_to("Все картины раздела 'Акварель'", aquarelles_path) %></div>
         </div>
       </li>
       <li>
         <p class="nav-a"><%= link_to("Гуашь", gouaches_path) %></p>
-        <div class="category-pic">
-          <div class="my-category">
+
+        <div class="my-category">
           <div class="picture">
-            <p class="name-a"><%= link_to(@gouache.name, @gouache) %></p>
             <%= link_to((image_tag @gouache.picture_url, :class => "img1"), @gouache) %>
+            <p class="name-a"><%= link_to(@gouache.name, @gouache) %></p>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("Посмотреть все картины раздела 'Гуашь'", gouaches_path) %></p>
+            <p class="more"><%= link_to("Все картины раздела 'Гуашь'", gouaches_path) %></p>
           </div>
         </div>
-        </div>
+
       </li>
       <li>
         <p class="nav-a"><%= link_to("Графика", graphics_path) %></p>
-        <div class="category-pic">
           <div class="my-category">
           <div class="picture">
-            <p class="name-a"><%= link_to(@graphics.name, @graphics) %></p>
             <%= link_to((image_tag @graphics.picture_url, :class => "img1"), @graphics) %>
+            <p class="name-a"><%= link_to(@graphics.name, @graphics) %></p>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("Посмотреть все картины раздела 'Графика'", graphics_path) %></p>
+            <p class="more"><%= link_to("Все картины раздела 'Графика'", graphics_path) %></p>
           </div>
-        </div>
         </div>
       </li>
       <li>
         <p class="nav-a"><%= link_to("Граттаж", grattages_path) %></p>
-        <div class="category-pic">
         <div class="my-category">
           <div class="picture">
-            <p class="name-a"><%= link_to(@grattage.name, @grattage) %></p>
             <%= link_to((image_tag @grattage.picture_url, :class => "img1"), @grattage) %>
+            <p class="name-a"><%= link_to(@grattage.name, @grattage) %></p>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("Посмотреть все картины раздела 'Граттаж'", grattages_path) %></p>
+            <p class="more"><%= link_to("Все картины раздела 'Граттаж'", grattages_path) %></p>
           </div>
-        </div>
         </div>
       </li>
       <li>
         <p class="nav-a"><%= link_to("Масло", oils_path) %></p>
-        <div class="category-pic">
           <div class="my-category">
           <div class="picture">
-            <p class="name-a"><%= link_to(@oil.name, @oil) %></p>
             <%= link_to((image_tag @oil.picture_url, :class => "img1"), @oil) %>
+            <p class="name-a"><%= link_to(@oil.name, @oil) %></p>
           </div>
           <div class="text">
-            <p class="more"><%= link_to("Посмотреть все картины раздела 'Масло'", oils_path) %></p>
+            <p class="more"><%= link_to("Все картины раздела 'Масло'", oils_path) %></p>
           </div>
-        </div>
         </div>
       </li>
     </ul>
