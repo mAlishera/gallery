@@ -20,15 +20,17 @@
   </nav>
 </div>
 
-<% @exhibitions.each do |e| %>
-<div class="my">
-  <div class="picture2">
-    <p class="name-a"><%= link_to(e.name, e) %></p>
-    <div class="text2 clearfix">
-      <p class="left"><%= e.description %></p>
-      <p class="right"><%= money_without_cents_and_with_symbol e.price %></p>
+<div class="my-collection">
+  <% @exhibitions.each do |e| %>
+  <div class="my">
+    <div class="picture2">
+      <p class="name-a"><%= link_to(e.name, e) %></p>
+      <div class="text2 clearfix">
+        <p class="left"><%= e.description %></p>
+        <p class="right"><%= money_without_cents_and_with_symbol e.price %></p>
+      </div>
+      <%= link_to((image_tag e.picture_url, :class => "img2"), e) %>
     </div>
-    <%= link_to((image_tag e.picture_url, :class => "img2"), e) %>
   </div>
+  <% end %>
 </div>
-<% end %>

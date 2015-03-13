@@ -10,6 +10,7 @@
 </head>
 <body>
   <header>
+    <div class="phone">+7 926 900 4689</div>
     <div class="title"><%= link_to("Art gallery", root_path) %></div>
   </header>
 
@@ -23,8 +24,10 @@
   </div>
 
   <footer>
-    <div class="info">
+    <div class="info-left">
       <div class="general"><%= link_to("Общая информация", general_static_pages_path) %></div>
+    </div>
+    <div class="info-right">
       <div class="share"><%= social_share_button_tag("My Home Page", :url => "http://vk.com") %></div>
     </div>
   </footer>
