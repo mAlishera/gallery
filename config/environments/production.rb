@@ -44,6 +44,7 @@ Rails.application.configure do
   # Set to :debug to see everything in the log.
   config.log_level = :info
 
+  git config http.postBuffer 524288000
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
 
