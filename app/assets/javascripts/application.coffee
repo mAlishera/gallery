@@ -12,5 +12,9 @@
 #
 #= require jquery
 #= require jquery_ujs
+#= require fancybox
 #= require social-share-button
 #= require_tree .
+
+jQuery ->
+  $('a.fancybox').fancybox()
