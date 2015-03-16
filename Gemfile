@@ -11,6 +11,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'money-rails'
 gem "rmagick"
 gem "carrierwave"
+gem 'carrierwave-aws'
 gem 'social-share-button'
 
 group :test, :development do
