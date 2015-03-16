@@ -7,7 +7,7 @@
           <div class="my-category">
           <div class="picture">
             <% if @aqua %>
-              <%= link_to((image_tag @aqua.picture_url, :class => "img1"), @aqua) %>
+              <%= link_to((image_tag @aqua.picture_url(:resized), :class => "img1"), @aqua) %>
               <div class="name-a"><%= link_to(@aqua.name, @aqua) %></div>
             <% end %>
           </div>
@@ -19,7 +19,7 @@
         <div class="my-category">
           <div class="picture">
             <% if @gouache %>
-              <%= link_to((image_tag @gouache.picture_url, :class => "img1"), @gouache) %>
+              <%= link_to((image_tag @gouache.picture_url(:resized), :class => "img1"), @gouache) %>
               <p class="name-a"><%= link_to(@gouache.name, @gouache) %></p>
             <% end %>
           </div>
@@ -34,7 +34,7 @@
           <div class="my-category">
           <div class="picture">
             <% if @graphics %>
-              <%= link_to((image_tag @graphics.picture_url, :class => "img1"), @graphics) %>
+              <%= link_to((image_tag @graphics.picture_url(:resized), :class => "img1"), @graphics) %>
               <p class="name-a"><%= link_to(@graphics.name, @graphics) %></p>
             <% end %>
           </div>
@@ -48,7 +48,7 @@
         <div class="my-category">
           <div class="picture">
             <% if @grattage %>
-              <%= link_to((image_tag @grattage.picture_url, :class => "img1"), @grattage) %>
+              <%= link_to((image_tag @grattage.picture_url(:resized), :class => "img1"), @grattage) %>
               <p class="name-a"><%= link_to(@grattage.name, @grattage) %></p>
             <% end %>
           </div>
@@ -62,7 +62,7 @@
           <div class="my-category">
           <div class="picture">
             <% if @oil %>
-              <%= link_to((image_tag @oil.picture_url, :class => "img1"), @oil) %>
+              <%= link_to((image_tag @oil.picture_url(:resized), :class => "img1"), @oil) %>
               <p class="name-a"><%= link_to(@oil.name, @oil) %></p>
             <% end %>
           </div>
