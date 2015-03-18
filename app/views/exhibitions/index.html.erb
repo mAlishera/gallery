@@ -24,7 +24,8 @@
   <% @exhibitions.each do |e| %>
   <div class="my">
     <div class="picture2">
-      <%= link_to((image_tag e.picture_url(:resized), :class => "img2"), e) %>
+      <%= link_to((image_tag e.picture_url(:resized), :class => "img2 fancybox"), e.picture_url(:big)) %>
+
       <p class="name-a"><%= link_to(e.name, e) %></p>
       <div class="text2 clearfix">
         <p class="left"><%= e.description %></p>
