@@ -1,7 +1,7 @@
 class ExhibitionsController < ApplicationController
 
   def index
-    if params[:type]
+    if %w{Oil Gouache Grattage Graphics Aquarelle}.include?(params[:type])
       @exhibitions = params[:type].constantize.all
     else
       @exhibitions = Exhibition.all
