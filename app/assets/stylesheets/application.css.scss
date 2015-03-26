@@ -73,10 +73,11 @@
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Shadows Into Light', cursive;
   line-height: 80px;
   color: #8B7D6B;
+  text-transform: uppercase;
 }
 
 .title a {
@@ -92,7 +93,7 @@
   top: 50%;
   margin-top: -1px;
   background: #8B7D6B;
-  right: -50%;
+  right: -60%;
 }
 
 .title:before {
@@ -103,7 +104,7 @@
   width: 70%;
   height: 1px;
   background: #8B7D6B;
-  left: -50%;
+  left: -60%;
 }
 
 .phone {
