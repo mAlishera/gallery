@@ -318,6 +318,369 @@
     background-size: 80px 64px;
   }
 }
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1104;
+	display: none;
+}
+
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background-image: url(/assets/fancybox.png);
+}
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1100;
+	display: none;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	z-index: 1101;
+	outline: none;
+	display: none;
+}
+
+#fancybox-outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+#fancybox-content {
+	width: 0;
+	height: 0;
+	padding: 0;
+	outline: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1102;
+	border: 0px solid #fff;
+}
+
+#fancybox-hide-sel-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: 1101;
+}
+
+#fancybox-close {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	background: transparent url(/assets/fancybox.png) -40px 0px;
+	cursor: pointer;
+	z-index: 1103;
+	display: none;
+}
+
+#fancybox-error {
+	color: #444;
+	font: normal 12px/20px Arial;
+	padding: 14px;
+	margin: 0;
+}
+
+#fancybox-img {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 0;
+	vertical-align: top;
+}
+
+#fancybox-frame {
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+}
+
+#fancybox-left, #fancybox-right {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	width: 35%;
+	cursor: pointer;
+	outline: none;
+	background: transparent url(/assets/blank.gif);
+	z-index: 1102;
+	display: none;
+}
+
+#fancybox-left {
+	left: 0px;
+}
+
+#fancybox-right {
+	right: 0px;
+}
+
+#fancybox-left-ico, #fancybox-right-ico {
+	position: absolute;
+	top: 50%;
+	left: -9999px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	cursor: pointer;
+	z-index: 1102;
+	display: block;
+}
+
+#fancybox-left-ico {
+	background-image: url(/assets/fancybox.png);
+	background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+	background-image: url(/assets/fancybox.png);
+	background-position: -40px -60px;
+}
+
+#fancybox-left:hover, #fancybox-right:hover {
+	visibility: visible; /* IE6 */
+}
+
+#fancybox-left:hover span {
+	left: 20px;
+}
+
+#fancybox-right:hover span {
+	left: auto;
+	right: 20px;
+}
+
+.fancybox-bg {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 20px;
+	height: 20px;
+	z-index: 1001;
+}
+
+#fancybox-bg-n {
+	top: -20px;
+	left: 0;
+	width: 100%;
+	background-image: url(/assets/fancybox-x.png);
+}
+
+#fancybox-bg-ne {
+	top: -20px;
+	right: -20px;
+	background-image: url(/assets/fancybox.png);
+	background-position: -40px -162px;
+}
+
+#fancybox-bg-e {
+	top: 0;
+	right: -20px;
+	height: 100%;
+	background-image: url(/assets/fancybox-y.png);
+	background-position: -20px 0px;
+}
+
+#fancybox-bg-se {
+	bottom: -20px;
+	right: -20px;
+	background-image: url(/assets/fancybox.png);
+	background-position: -40px -182px; 
+}
+
+#fancybox-bg-s {
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	background-image: url(/assets/fancybox-x.png);
+	background-position: 0px -20px;
+}
+
+#fancybox-bg-sw {
+	bottom: -20px;
+	left: -20px;
+	background-image: url(/assets/fancybox.png);
+	background-position: -40px -142px;
+}
+
+#fancybox-bg-w {
+	top: 0;
+	left: -20px;
+	height: 100%;
+	background-image: url(/assets/fancybox-y.png);
+}
+
+#fancybox-bg-nw {
+	top: -20px;
+	left: -20px;
+	background-image: url(/assets/fancybox.png);
+	background-position: -40px -122px;
+}
+
+#fancybox-title {
+	font-family: Helvetica;
+	font-size: 12px;
+	z-index: 1102;
+}
+
+.fancybox-title-inside {
+	padding-bottom: 10px;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	position: relative;
+}
+
+.fancybox-title-outside {
+	padding-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-over {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	text-align: left;
+}
+
+#fancybox-title-over {
+	padding: 10px;
+	background-image: url(/assets/fancy_title_over.png);
+	display: block;
+}
+
+.fancybox-title-float {
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	height: 32px;
+}
+
+#fancybox-title-float-wrap {
+	border: none;
+	border-collapse: collapse;
+	width: auto;
+}
+
+#fancybox-title-float-wrap td {
+	border: none;
+	white-space: nowrap;
+}
+
+#fancybox-title-float-left {
+	padding: 0 0 0 15px;
+	background: url(/assets/fancybox.png) -40px -90px no-repeat;
+}
+
+#fancybox-title-float-main {
+	color: #FFF;
+	line-height: 29px;
+	font-weight: bold;
+	padding: 0 0 3px 0;
+	background: url(/assets/fancybox-x.png) 0px -40px;
+}
+
+#fancybox-title-float-right {
+	padding: 0 0 0 15px;
+	background: url(/assets/fancybox.png) -55px -90px no-repeat;
+}
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_close.png", sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_nav_left.png", sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_nav_right.png", sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-title-over { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_title_over.png", sizingMethod='scale'); zoom: 1; }
+.fancybox-ie6 #fancybox-title-float-left { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_title_left.png", sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-main { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_title_main.png", sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-right { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_title_right.png", sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {
+	height: expression(this.parentNode.clientHeight + "px");
+}
+
+#fancybox-loading.fancybox-ie6 {
+	position: absolute; margin-top: 0;
+	top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px');
+}
+
+#fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_loading.png", sizingMethod='scale'); }
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_n.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_ne.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_e.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_se.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_s.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_sw.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_w.png", sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/assets/fancy_shadow_nw.png", sizingMethod='scale'); }
+/*
+
+ */
+
 /* line 1, /Users/ekaterinashemerey/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/bundler/gems/activeadmin-60914c887942/app/assets/stylesheets/active_admin/mixins/_icons.scss */
 span.icon {
   vertical-align: middle;
@@ -3225,18 +3588,20 @@ body {
 
 
 
+
+
  */
-/* line 19, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 21, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 html {
   height: 100%;
 }
 
-/* line 23, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 25, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 * html body {
   height: 100%;
 }
 
-/* line 27, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 29, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 body {
   min-width: 425px;
   max-width: 1920px;
@@ -3250,7 +3615,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 40, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 42, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .wrapper {
   margin: 0 auto;
   padding: 0;
@@ -3259,28 +3624,28 @@ body {
   text-transform: uppercase;
 }
 
-/* line 48, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 50, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .wrapper:after {
   content: '';
   width: 100%;
   height: 200px;
 }
 
-/* line 54, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 56, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main:after {
   content: '';
   width: 100%;
   height: 150px;
 }
 
-/* line 61, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 63, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .clearfix:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 67, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 69, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title {
   position: relative;
   width: auto;
@@ -3289,19 +3654,20 @@ body {
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Shadows Into Light', cursive;
   line-height: 80px;
   color: #8B7D6B;
+  text-transform: uppercase;
 }
 
-/* line 81, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 84, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title a {
   text-decoration: none;
   color: #8B7D6B;
 }
 
-/* line 86, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 89, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title:after {
   content: "";
   position: absolute;
@@ -3310,10 +3676,10 @@ body {
   top: 50%;
   margin-top: -1px;
   background: #8B7D6B;
-  right: -50%;
+  right: -60%;
 }
 
-/* line 97, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 100, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title:before {
   content: "";
   position: absolute;
@@ -3322,10 +3688,10 @@ body {
   width: 70%;
   height: 1px;
   background: #8B7D6B;
-  left: -50%;
+  left: -60%;
 }
 
-/* line 108, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 111, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .phone {
   font-size: 40px;
   font-family: 'Shadows Into Light', cursive;
@@ -3337,7 +3703,7 @@ body {
   margin-right: 30px;
 }
 
-/* line 119, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 122, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .mail {
   font-size: 30px;
   font-family: 'Shadows Into Light', cursive;
@@ -3348,7 +3714,7 @@ body {
   margin-left: 30px;
 }
 
-/* line 129, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 132, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .name a {
   font-size: 20px;
   font-weight: 400;
@@ -3360,25 +3726,25 @@ body {
   color: #8B7D6B;
 }
 
-/* line 140, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 143, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .mail a {
   text-decoration: none;
   color: #8B7D6B;
 }
 
-/* line 145, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 148, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .name a:hover,
 .mail a:hover,
 .title a:hover {
   color: black;
 }
 
-/* line 151, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 154, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 img:hover {
   box-shadow: 0 0 10px #BDB76B;
 }
 
-/* line 155, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 158, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 footer {
   position: absolute;
   bottom: 0px;
@@ -3389,33 +3755,33 @@ footer {
   opacity: 0.7;
 }
 
-/* line 165, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 168, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .info-right {
   float: right;
   margin-top: 15px;
   margin-right: 30px;
 }
 
-/* line 171, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 174, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .info-left {
   float: left;
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 177, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 180, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .share {
   margin-top: 15px;
 }
 
-/* line 181, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 184, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation {
   position: relative;
   padding: 0;
   font-size: 0;
 }
 
-/* line 188, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 191, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation li {
   display: inline-block;
   width: 20%;
@@ -3424,7 +3790,7 @@ footer {
   vertical-align: top;
 }
 
-/* line 198, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 201, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation a {
   display: block;
   font-size: 21px;
@@ -3436,33 +3802,33 @@ footer {
   outline: none;
 }
 
-/* line 212, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 215, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .nav-a a {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-/* line 217, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 220, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .name-a a:hover {
   color: black;
 }
 
-/* line 221, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 224, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture .name-a a:hover {
   color: black;
 }
 
-/* line 225, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 228, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation a:hover {
   color: #8B7D6B;
 }
 
-/* line 229, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 232, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .current {
   color: #BDB76B !important;
 }
 
-/* line 233, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 236, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my {
   display: inline-block;
   vertical-align: top;
@@ -3471,20 +3837,20 @@ footer {
   width: 360px;
 }
 
-/* line 241, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 244, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my-collection {
   width: auto;
   text-align: center;
 }
 
-/* line 246, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 249, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my-category {
   display: block;
   vertical-align: top;
   margin: 0 auto;
 }
 
-/* line 252, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 255, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my-category .img1 {
   display: block;
   width: 80%;
@@ -3492,23 +3858,23 @@ footer {
   margin-bottom: 30px;
 }
 
-/* line 259, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 262, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my_show {
   margin: 60px;
 }
 
-/* line 263, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 266, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture2 {
   width: 360px;
 }
 
-/* line 267, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 270, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture_show {
   float: left;
   width: 65%;
 }
 
-/* line 272, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 275, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture a,
 .picture2 a {
   display: block;
@@ -3522,7 +3888,7 @@ footer {
   outline: none;
 }
 
-/* line 288, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 291, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .info-left a {
   font-size: 20px;
   font-weight: 700;
@@ -3531,90 +3897,90 @@ footer {
   color: #8B7D6B;
 }
 
-/* line 296, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 299, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture .name-a a {
   text-align: left;
   padding-left: 30px;
 }
 
-/* line 301, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 304, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .more {
   position: absolute;
-  bottom: -30px;
-  padding-left: 30px;
+  width: 18%;
+  bottom: -40px;
 }
 
-/* line 307, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 310, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .more a {
   font-size: 10px;
   font-weight: 400;
 }
 
-/* line 312, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 315, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .img2 {
   width: 300px;
 }
 
-/* line 317, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 320, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .img {
   width: 90%;
 }
 
-/* line 321, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 324, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text2 {
   width: 300px;
   margin: 0 auto;
 }
 
-/* line 326, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 329, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .left {
   float: left;
 }
 
-/* line 330, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 333, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .right {
   float: right;
 }
 
-/* line 334, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 337, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text_show {
   float: right;
   width: 30%;
 }
 
-/* line 339, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 342, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text p {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
-/* line 345, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 348, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text_show p {
   font-size: 16px;
   font-weight: 700;
 }
 
-/* line 350, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 353, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general-head {
   font-size: 18px;
   line-height: 21px;
-  font-weight: 700;
+  font-weight: 400;
   width: 60%;
   margin: 40px;
   padding-top: 40px;
 }
 
-/* line 360, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 363, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general-technics {
   font-size: 14px;
-  line-height: 21px;
+  line-height: 32px;
   font-weight: 400;
   width: 60%;
   margin: 40px;
 }
 
-/* line 369, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 372, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general a:hover {
   color: black;
 }
