@@ -9,31 +9,33 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header>
-    <div class="contacts clearfix">
-      <div class="phone">+7 915 216 9463</div>
-      <div class="mail"><%= mail_to("lvt@land.ru") %></div>
-      <div class="name"><%= link_to("Лидия Филатова (Тихонравова)", general_static_pages_path) %></div>
+  <div class="container">
+    <header>
+      <div class="contacts clearfix">
+        <div class="phone">+7 915 216 9463</div>
+        <div class="mail"><%= mail_to("lvt@land.ru") %></div>
+        <div class="name"><%= link_to("Лидия Филатова (Тихонравова)", general_static_pages_path) %></div>
+      </div>
+      <div class="title"><%= link_to("Artistic room", root_path) %></div>
+    </header>
+
+    <div class="wrapper clearfix">
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <%= yield %>
+
     </div>
-    <div class="title"><%= link_to("Artistic room", root_path) %></div>
-  </header>
 
-  <div class="wrapper clearfix">
-
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-
-  <%= yield %>
-
+    <footer>
+      <div class="info-left">
+        <div class="general"><%= link_to("О сайте", general_static_pages_path) %></div>
+      </div>
+      <div class="info-right">
+        <div class="share"><%= social_share_button_tag("Гостиная живописи Лидии Филатовой", :url => "http://www.artiroom.ru") %></div>
+      </div>
+    </footer>
   </div>
-
-  <footer>
-    <div class="info-left">
-      <div class="general"><%= link_to("О сайте", general_static_pages_path) %></div>
-    </div>
-    <div class="info-right">
-      <div class="share"><%= social_share_button_tag("Гостиная живописи Лидии Филатовой", :url => "http://www.artiroom.ru") %></div>
-    </div>
-  </footer>
 </body>
 </html>
