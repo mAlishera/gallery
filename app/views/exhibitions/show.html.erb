@@ -5,6 +5,6 @@
     <p><%= money_without_cents_and_with_symbol @exhibition.price %></p>
   </div>
   <div class="picture_show">
-    <%= image_tag @exhibition.picture_url(:big), :class => "img" %>
+    <%= link_to (image_tag(@exhibition.picture_url(:big), :class => "img")), @exhibition.picture_url(:big)   %>
   </div>
 </div>
