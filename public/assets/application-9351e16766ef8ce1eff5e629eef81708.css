@@ -35,7 +35,7 @@ body {
   margin-right: auto;
   position: relative;
   background-color: #F5F5F5;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAAAL34HQAAAAOVBMVEXz8%2FP09PT29vb39%2Ff7%2B%2Fv5%2Bfn19fX8%2FPz4%2BPjx8fHw8PDt7e3%2B%2Fv7y8vLv7%2B%2Fu7u79%2Ff3%2F%2F%2F%2F6%2BvrOjwOHAAApQklEQVR42o2ci0KrOtutQ8IhYGkp93%2Bx%2B3kG1arT9X%2BbtZxWhIzkPR9iShlqK22sdZqGeenrMJfto7SpD2vvQ52n2zhPfR8G%2Ft8%2B1rmWfZ5aa8O2zb31ZSq9TdN2r1OrwzwO3J3a%2BvEYjuf88dh4q2xbP1vj5X0ePrbqaG0ehmlat2E6f%2BC3C38vW5nrXOteWt%2FnoznMvrdpbGWYlqmNz%2Bft9jz2fZ6ZBf8zv7m13srez84HMLi17W3mQx%2Fnvc%2FD%2FvgAsH18bPu%2Bbvu6T2Pd74913x4fa2u703W4dW%2B1QhdmcOEvL3zAC9%2F2sn%2BsZdun4bH3GzOZpvKACG0Yx2EdmENbjtuT64COLIklj0y6DTtTWtdtns7O9FpnMfM8bIUbFXpCwaFyv9XGE37qvMBMV6gxlNZm8bnAZ22g7k38cs6VsefKFFZ5MLSJ6exQvpaN6a4fH%2FcPFz9CGwnTp2mc2iwvWP%2FAwww%2Bt7lxe973YWTGfTr5JlEnVjkpAc1b0H6ZeHAcF%2BgKGdfaWIWSFPxT%2FHPqvQAynsdtZJjp9hzn2ob7BtMbRN18rkDj3iUo0%2BNiDVMko3Jv6MtyTs6gMCMYc043pEVSzgBA4nOZ9uIr2zbM%2FWht5A1GPJuzKaz2wj9f%2BE38vSzjxC2I3KSTAsLKd6ZVIcEy8mKboYOMkFzrOreC9PapImTn7XaObS7whmnO8si3oY2ipuQBvn7scx%2Fbtm2Pbdgezn9b5SvDns%2FnN%2FwT%2FBnOQb95v2%2Fb6khT9%2BfKUnk8a56O26QsseLGO7kUr1LGJyzcC2iQrDCd2qAOqgv4Wpgxl2KHBKzrXjPfzkq5BdGRrDC%2Bqckv%2FPk7%2Fljky30buJsHq2LR6nljalNnqbCmuWbew2ZU5HFpw3SMZWcmre4MydqVq3VgPUwNTYcLjNdqQd9zuehpPJ6L7J2aTC1Sc16%2F8PtroggVIgFerZc8KyvI4QCrdtakSG4so3B%2Fu6%2Bt11LHowElxbd7vu0FwauNf85R4S4d8BPiyBcmcpPey8Jk6tyFGZ%2FLDZtzTM4jVH3jax3XKH45xuV2aBIaCN6GnVVpWlelbOJXDI1Jgu9leo4sb9uY6%2ByMEIQueSZkDiVYmvxQlFmDIq%2FY1HY%2Bb31Q3VckE9NTUDUMlnqNIX3hq0EvfMhWqoo93qY5lgXKS8ShH8t0LvwwMa68BaACNna4HwPPDSVaPcI4KRvDB7DKPdIS5tUKysZU%2BvyA7Kj2nWkN948HjPMJsc7gH31wIuKf4LPqJpdQl1Vtiki1Bgq%2FuZ2dSW0hz7g44SaqFJ%2ByYGnCdErYgLa2BlFREFVEe6aQrdAPq7%2BPx3icilVs%2Fzbwlub1L3wIqbFdNy4sJn4CmSkyE%2BWSL7U3ZA18ZoUMaLKLJqSfSDhCBm90jrVXVKqrwmgYk8IOITzjbdSqIHQIF5aAsdqIYZm0pl0Vcjik4Tv%2BKn4rk3bUpcGzyvqQdDyk5Ng3n98L4gC77x%2FIBiYRu39fGW%2FWZc0IV%2BRrllKQbnfSVe3VBE0aT%2Fik15qKZNPuL7dR3jVfGqdv%2BP0LH82ZVKIFNZLFy4SDft5ahz1Qoel9ufogkVkawCsuoDJXHTwMZAan0jrVlWXfd20KNxVe%2Ft2HqgWGotoBhNMQYlDZZ2Whck1M6wv%2FuPAnFg%2F91K15Kz41yAGYpzdGa%2BEEr2GpuPoYq6WYR86O5ZS%2FekgNwn65Pm%2FB49pjPGNVdye18WvFrLT1jixtLqUVaBj8Ij5qF%2FylFziBQvMNT4m0MIbhx53RpKMKNzh2PU%2F05Lk8mRGT0%2BbK6HBp6uehH1iUq9vCMpjQfEx10jgpyVngqfc4XVPsFEiA8A388hP%2F%2Fii4SXgdE%2B8jw%2BOiXZ2Z3SORlZrua3C04Tbue3hn2IaWVac2S6TGl4a7ouozi352PL1xA844RJ61q5OrWZD505WtO%2FLzA788HmqgssW7GZXRMGoqCq8dZ9d%2FugLjTuVkV9O5FJSHSjOUO%2FpYtPWXF1RmnGSboOnEj%2FvgrHlbjSt7iKE6MO%2FIO%2BQL%2FnnhN%2FHhy1kk2Vr7DCfOkzVE9tBlKKYoJrpbIZJkWJGAywUwBMZx6DXx0raChPohEKBBVTWjxBmUhvBiTHmEZV6WtvCLeNkyE%2F%2B88HuHfsAFfypZA6OgQVVJjWvSPepaFASHq5B%2Fgdv4NnQ9Pk26a6VvCigPakBltxIHitRFe4c6Jmo9VBIFVRm7AY0EitJD4%2FkXPpNigs3AtvAbjdNEwBKKHCe44SFB1XQgy8bMKI%2FD6I%2BYVUx5V35eZp0HJrwyYr4k9D4bmuJiiBvCCi6W9yQAYQSlpAV%2F%2FsSfg9%2FLGTlF7E4s774a2mRpBnIFfLhpSAGvdYayA6HEEjCU%2FFsfu%2FSuc4E6OuV5Rft37MrRtJxAYlykw2yIqGRjrWEmk0goFz1pxxt%2FFh%2B7UZannJjQ9LhJ2Cze3riMWlBfprNul%2FVJaiIR9zhHybxtd25zTwP3uDMNpoJ08o4SzhdBEMsp62rc%2FVgxt2ozqRO2RPzjhT8u4F%2BYtbEm7fC6IokaGN5SdGOWjudxsPAYOTivePQEz6ZZx4i8GEWccSZMs8KC5dCmYWlWve2uWy218zPvyACIGRNbCaRVXfB7%2FYnP%2F95hCXfWRLSdaEl%2BSLfM7Yo%2FFKsp%2BAnuRhybEVCSpuVAN2uRRVW%2FqosgsfHGeSr8sxZ1ZsgTFxh%2F7oRn07%2By%2F4U%2FF%2BgOsVcn4IDYyAZahcCEk4w0yLk5yZhfQ8fmJUKCbAN%2BwwhYja%2FSSjE7k9PGB%2BimYxElpqtbopbcPTtwFfLITfFLO9%2F4MPGGEUa2UPpFfbkdhiDyeXc5gzErIrZ%2F3B8bcVhThLiMRNZYWQOAIZkZqzHaxr6iJ2XWh%2FeiwZA%2BptqPh%2Bs3%2Bx8O8STb%2BCd%2BK4h4eGReR3zUse99ZVBm3KJt7UDTVTytC4KCZdQCKgjR4Lk06w%2B9PIzvYlc7PtTUDp2rMtPpK1eFfyR6MnvGdsrnb%2Fzj1tatmHdsd2Mp9H79iL4hiYI%2BNYBtyBcBtz4ZJe1n1o%2BlrdDonLcrYjGj5htmSi%2FIpSdQI9ddi9ARCHShy1roZDaLOE2N14H%2Fja8zK7qp7YN1CLEaesy19F6aNNPobxujxqobFWsOITRBqCGfYWVFqHW5B8uN6BnpJNlWp6fbopbezA50Cge86wys%2B4Vw3%2FGxH7v4rTz1HxEnI%2BnOmxCjIhcWWT7KYCB631oxpjVBw0wptgCZ1CTdgwoKvkprhhRzD09MFQ2%2FSZeGarpsXJh8kIDLTyaXbfyJP4of2TIQyuemXfO2WfXRN9SJF%2BtVZ0mBx%2FB%2BuN8fH4jvFhc9m9crRej1Zh5q1ltCAw3vFT6i%2BmWFrnhJQrmETgawAOPCYjh%2B4i9LocRlrLvCYMZZkznBHnOpeVIMmBnqJjEM6TRZzrVtkC9eiKWxcpZssjaf5%2FrBDA1Akp9WQ4UUZMbO0IU7uPOQtMLhom3dgd5f%2BPdV%2FKO0Y2nn0a5qweOuNg07IrbpT4ZxkVjTofC7cHT5ZEXIESSfEsBqV28ovKEnDFnKrvPWwLaZ64ozlsWJPGXX4tc46vWV2%2BAvwSd5AR9lRbyMEbvr152rzoxZTVpMfbY2GTB3ZaW11Yy3oLhWG5xPc6bHghGPvDQFhqwJRON%2F2WOmD8mhioRalB2zHhdszUiyBb%2F%2Fwle2Bp3F02tRAB31adIE1yqZSktMCfVS%2FllNYfKjBtKQv933KMMuhe8mznh7s0yDI8aGn%2Bsuw8Na3bcZHfXHMmH4pl%2F4Z%2FBRNYhq1a7rPjr8gKNYxVqV5lYBDpX21dUfC74NjUkcDM13v2u6Xev9AWF7hyEPpmBJFEME%2FAf68lV0KDv%2BInkaZRol8xs%2BUcByHEvFnFpv5U2GMkgvBShMke%2BzRGAQozjmOrRYom5t9cTXxKf4xTSXLtvkiJFfCslUfNHU2s3%2BLdSYUvAKE%2BSWlssQeWBa%2B3Ra40W5v%2BEXlFgjWvXqRhTyIrUkScb7xrcand2ymYEkoHzj8RGTehpHL1ex0KAj1qLpxxsCgGBhdZP9Dl3poD7J9Pgt7k%2Bro0Etw138Kv4sPsiX86%2B8flhlYBqAWWSoe1hoTpr6ygoBE58rG2ZnimVx%2FnszxFO0iDn9TYxFCifEl5GEWGCTe56boV2pTIvggfvJ1H%2Fjy6tUXvX%2BWbH1UgN5tWwAFDcEcyV5GxKDmKXP%2B8fAz7FyRBIYm%2FiwofmS%2BUZPRF35gECaRFipYnnYYfhatunAoRlEW57Cib7wa%2FDPishbRt24iDoMs2fzcMyV0R5C00ftkU7AZDn5EtK0K9D77vpxn7cR6jZZjip1i6hJ5RUuVJRp3Us3qEwGf2I47pT8lR8CVC10vfBR4Rp8aDgVJaZaIS%2Fyup1VXW4tFT2%2BNdJhhadyn1xfOfU%2Bsr1j0bk9UsprBp%2BTnmMose2G3brEjoim2MCHGc7qifrZeMhyaUok9Qd%2BFx%2F7Yeajc0%2B0AkEJr1WUJJ0Foihae5wGo8MPveS0aK31z2ax5zmQxkHE24RTvyuCWnmFpcxX1qlp5vY1Z1gABEFmjd6OL%2FzzqkLW4E%2FgKTPN2ByrlYCFAVMuaXZQelGa0RQeQ8wQ0JWAIqJQMtm5rkTVBKI4NLSKJGhajqtzkZT%2BBCXlhdRFrR1uj7RrJB2UEn%2F%2Bhj%2BCP5ZVTYToaurAUlLI5PVUIlplQTFHfbin7lHWZGWKLxO4ssUobeEnb1TL7zUleYBZ1lXchEIUr8w3LJjLaKOBAqb4Imel4hvxX30o7fgq0zZtyFAem7Vi18et0hKE6Uuu%2BFtDGn3vo6SIZVTnptNq0dLSnDJdjFBssq9h0nTePJ04piW4SEUs%2BJv4%2Bxd%2Byi1e1kr4XI1mdVoSXDbVthqpm4mnRYWp1F8iW%2BnoubB5HJ2oV5so5zGY9OXjHvvRzQENQW3vXXUrfW%2Fnf7so8xf%2B%2FoW%2FFxaMnV7QJ9NAstVEdoYs5pCYRn6JHyCnUHWTRUBAozftOWOqTvGNtVoSEhwrFY1rZl7nco3Wz6tObsZ4SHXpbalL7Qj%2BpPUPvhmT5T0fI1yx2heymNMZ0fIJOGxgA4ARTWygr9Ib11kGhdo7ZddmW3EzSWPaiZC5GE1zbzyiqc8Sa3Ju1gTWX%2FgdjajJS%2FWMcntOJWrGn9%2B4OlYeOkEFFo61VJLMSZ3mkVibL8OoG%2BmzGNG%2FpqvW%2Fqz2WRl9NpdUukfLH6Zn6LTdwZRKSvBX8K1Rg9YnmNgsp%2B7VaC%2F%2Be%2BWp4ppTaurWBfXNxM3kGhVQZD1V7K4gwwvLMZEmUsyacA4Ow%2BcU11JNWDV5EpBAX57xrcvb25Plglx5onzDrwUZLUAOVjunWkyLJW6fd9P8Yv1KIniRW7P0oPqmerpulmvQoMvjO3xz7bAshSwISmJgMGKeZVN6trLCWhU7Ayyd3xd%2Bu%2FDLViapZmG%2BKqgTVIFQvu5EpEQ0tUgl0vmzrzbskCvt5k6glEAIVUsZ3p%2BtiGglJTCvN%2Fx2S58FCkJUV%2BIQ2AMupiP%2B%2BBvf%2BKAMicZPDP%2ByEBWZRwxw2Go3PjhBWM%2BbiT6ryJq%2BxUR9wX8vSByPj8qPkgRWMUvWw5iW6ed7i8k7W5LvSsBdGAINEL%2BCX8%2F5C%2F9Zkqo37Yv9nuISrafDfkhldlz7YUZD5s%2Bzw0larANIv00V033zSduyII8MCUHiCdMTgEhmJ6pDJlUKLIzCtpi7tv2Lj%2FIWK%2F1qJLeIQlKFvPORtZ34za0Cqtoaqc8MJhf4JyJWrNkgXH6THDZku9UZo58pXbO0zayLxqycyHUaekArsZb%2FSQpx2L%2Fxi%2BtdpMzoUxCYEHOcrF%2FXhKgs6DLWWzLSbsbQYkjBmiZd5DobD5YtyY89wxHy2Qcwl2GWxp9G4XoyJz%2FIdcPIWRHkmeM7vuZ4LHNPO0oDbdeJh%2BihnATZ6fnV6Wirfvnhqu%2FFUWe7D4D00YAssbWFvLTPgF7vWlZmbKaotIUtziJGxkJ1t0OsyecuOi9%2BC%2F7ywn8WlpEX5isIP6C7phxt1djF38KalGt4%2FkC%2FaPcXl2EbGn%2BSPQOTfMPOhommuNhCEq%2FNUhsrS9vHHlfPpgTDjZWVsgSTmVJ%2B4J%2Bgla7ymmAXrYG0TnB18tzkhXwiXVTmvW7G2TrDSD0qiRuNU3t6HWN8G2uG2eQzcEyT0eranmc3hBAFkDYYTXYCXfe8XPgF6%2FmJP1fmndusC0FTMNJrHxSBZrju0Gm4tjkmLMXxFa8t2yRk00FqKeOJZ3S%2B2Xjtujp0%2BMQ6IC3gIBgIhfTERyTe1E%2FXFz65r%2FjbbKyh40kxrduXt2NsSKi7GtKodUpcFgi3BzFI8aZzRbrL4EwUvI3%2FPhhYowrjhpMAJf5ptgXiN1xz2g6qHrxH%2B7O5pViC%2BsRH5sUfdOEFpUjnIKUv0tyOlJ8%2Bxa%2BTe6WF2WyqsM4lhUKD%2BA7L5IJW25ac%2BYvtG7CcvCVTw0H1Nf0KCCmdkSQKXR3pi0ZvCi9MfeHjXIN%2F4qji7uJdmYZtpkUB9lGeRHZQFX9j%2FmwpydxCJThsDwDVX5J11ZpMOS2cXL4rLDZQOhf%2FaYTsU6c6MrPvpsJ4jG3zyfIbv%2BwxrGl%2BuzD7I3DCTDBaHRdlwA%2Bp9t31Mw7IDMfHSYmjc%2B8q6mfHu5%2BXm7E4pBtmBKDTp8StmXUeeK0xHVkdwHf8ObKsEUQJWjQ9FUG7Mla44UjSBE0Q3LQNkwIS%2Bf0G9VWd3XwcyR7r1f00tpr6%2Bhhsr5qTac%2FnOlqj9H8ExGLa6vYFy9ylYnb7IP75xn%2BIvxZpUiskdozu8gFScpoRfEkihnE6eikupZtSuQvEtlhjQlu6TEG1AKbIFGMYgyEzJgUzfqYp29YwrLwogjIXBp5v%2FOETvxdmzrVoidPCHI2ozaT8ANF16ZOJGlJ5ulyuxQYKkBAFtnPBRjsRuOup4FnQ0TTD7ZR66fd4Ckn%2BeHjXmNk%2Bh6xgEK8v%2FEX8sTQrA9gWeAseq7QO8Nr5pTJbP6oJPFo6j65r0qLbArzG66d5p2EVy%2BismIXH1rWanqifuq%2BCBcXlvMlc%2Btod4DL8wi%2FpfVsmh7oqEIxVq5Ff5dQU6VFMdyqTWX1kTlyKciZbyH40TbH%2FEplEB10RJlwCpkU4qeu7Kq97kB7DbGbJM4tdpwt%2Fe%2BGv4vN0CsGpzsJTUqt09dSNdpWfcGCqpZ3NdBHVhrYbW6b5iZSlY%2B9dHrWjnC4xtDxG5SRNoGYfAUr5zfR%2BIojjn5pM7Sd%2Bll6OjuCYkTI%2FRet46sZTHLWgGN5Z2LybHeumk5M3nVhy8wT2p6FhgnRbFrFWKXwRoqV6f%2BrhrTW5Y1NmWJ7XS6PMwT%2B%2B8JenZqZYP2UQ3waKWGmxI2OLNhqUVg%2BMOJEbU1JdfMrypzUwBnSp7vI6LZ7F2g4avXSs13KMONAGFGSbH9BBb1yN1lcIm41sL%2Fwdsr%2Fx9c9z2s3oxipv54J03OfsbJTK5s9R87P2RPKNcKKnxpPusLRMqUOmzJZYEL8otxWfCTOypDeLOOK3%2BRm6Vk2N%2B3N5Ufz1J76SGFVaTuMYMySBLDmQedbUGuFJckO82MNECelZ759leh26oxQk0VJMQQg3mQ2tk7i4u9NkNd2RRNpJNZZEZ9BYkXrh9ze%2BZbc2mCmctxgtJqkAV6Wnviw89zRyp8RR5bH3QJG7GJMaWmVPzpZNbazDrHnaiTlitFIZdJSz68RqscUzEGZpT5Er8dt3%2FJqaTGPhZtuvjNuIe7wpPidvpDKYnT5wz30NvRpIy5fXPjwDbdyvzf9qhg1ac%2FT9IUXSv6X9opkEFJrLbcMKOmXQ3K3I64W%2Fi6%2BmBL8kqEre%2BaCSJl%2B6RUN16WrI7%2Fb%2BpN6WGJZc0SJPRykt2%2FE50bQGWqEfe2qPOmxLK7FZVZc9xK0vtm0VzR0yu8OptU%2F81XbgC%2F%2BMjVeha0N4kQdjxlYUBkTh2uNilpza%2FhCDbUacKFBp0JwDarc9rUX3EtetdO2eUZ%2B9v67Pfwy9pNsISWGYF9NHtC%2F88oU%2Fil8MTiM9XUeYyu7SzGBkVFVvnN2%2BJYRmzJSw9lqLk1vj1dyKYQxhedTChNqFlLenXDMRkGZq%2FR09m825VVNlCkATdyQl%2BOcnfitTmiAqLINoaSPyzAapLNPprpk9QAqGmzMsp712CZvHyCmkxO38EM1o2qdehelEg%2BYG%2BF8q0jq17h07ltkghWN94%2Fcqfmq42fPMZ8OO3SZssfdm8GaO5C8JYuzrq6KTnnvmUg%2FOUXE6rrKqIa%2BcGDW3ar3FyMYGJyehEfFeN86atjhIjcmcjiBMT1zyA78gZfVq0VqGGuySyFKXxBe2mJRkETSeYzC31lJoiiHZy6O6x6DM%2Bmbzq17VP4lPLKSIxZw3clbVWfM13VJz70Qa8LUFf2bsC9%2B6AZl%2Bkc4incY%2B2DUooFl0Z7euADZ1zOIEb7J5UcmcMZRciFZqIAlqmw2fVV0gfXWVk9LbMER2Z8tUAbI2dTDdNkPsk7zoT%2FylUJuzlM8Xd%2BGbIazfzkVNxptR4uvOBxWog%2Ff0c7tr41lzN6Td0Mawl9a%2BZS%2F%2ByVYRVMcEw2hLWCOJmsq9BuTAyJsz3oJf9hr8kgaDpgDbzCsEKZYDZqAmiMNPrEe7iKYp%2FcWczJw6ONwymDwOnKOF4sQy2W8bu2zMrcpJBX0Qj%2BvetcUa06tUZ9fhfr8HP1UM8dM5gK4Iamp5O06Nt0CwWr89suUQhz7x1QZ9afb6RcMMcEa5wd6ulw3CCthOOJgq%2BEhZsk%2BkyJ2Nmtcmcfb9VOlMbYwbseDBv7%2FxEVJtpXV5g8gTi3%2BVg3VgsKEdZ7my6z1JteX0klS0KpWQbHukqJa%2F4MExrildxRpBu%2F0O66DgGZNF%2BGCzCI4%2BJSz%2BiCDIvjgNJvAtYwR%2F%2FsS3NoAqLcZNjKKduHEtoxnDafVMbTZ4cXNo9EuzIs23NHCUfKbnvywyf2BkMB2vzaXzcep6e8g%2FpbSfveEaMyvswT8%2B8WfwoXVJmuSYMBgKWYVrvnbVp7q%2BSP1I%2FNDNgGpNxuO00kNwY8Fi4%2F%2FV%2F4FmG4Y8e3K7kZtWMhTYtbhpnfhxQFgSar%2FxK0jBnwqmktspmu2roWi12KEPMdEtSV8skCEt2Q5T4YRtevPn7N3hk9FTekAj3GH2A4ZhTCsk2YStX8AnSTW4Ydo4TeXN9MY%2F8D%2FKwxCoJQ5H%2F4eHN%2FHr1F342XCj2Tc3cXpgNQ7ZP6vv6h08ikOoPRmOS%2BjEXQb%2FdqJXd2FobfCgPRZZcdM4WcvTpykRWhbx0aQX%2FmNN47uU5EaakeZ2Ol3JOZ8GVyuja9KWvmVzp1Y%2BJsDlGY4qo25jYL3J9w3R3RmjzYGu5PYu0HqVKjLLIzL89HmI6WyhfOGP%2FQv%2FViD%2FaA9ey76rNryJvbXDrk02yRwcQ3tiVgZiduFzQUe9jNGp93anmvahYX1CwNNXtOzQBj8weNfUmA8as0ij%2BO2Fb7IFvvaTjMYczi1Kc%2BJL80zyIGASTLcpf%2BPlDr5ka%2FJqFMho2pt6SB5EqQJ1GmoZchsr4gZ5mQqNhvjqj2kOSyVVKHt4CP48BZ%2Bl1QtfGloTT4g00Jk0CbFDwlJV53GZyVd6xSavQW9mvCdAPVruRBxrPI5UnSwBeDVqdPa7FM2KNEmgUTuVPbOnTijldURM%2FNTTgz%2B88FsDU6fNiMizqqeQtxszaO5O22SHaUVCCmZneU11QMgdNCEXNHQkYoaTbxWiP4%2FNEDhsk7mgImvutEmNcmGKFZEFWPzmKo8v%2FBUHHx%2BXqNGIe%2BEajdZv8%2Bcu2HUz2KmvCosJuJ9I0JLoAFf4N71ZfNdgEso1swX3gDKZmBkE30rLPm%2BppN7PaWrKwfoDH2EpJe35CiBuP9Lpqrvx5SazxqmYCqq%2FkWUQZsgMI%2FQrEEG9ZEapbLSlWRRAWV9WxcghFUNUrUPm4r5Lfg8YIa3UN%2BcTf7VB%2FonfWVv6pPwSSmqKi2lZWqjNiDR79RB86aYDmqpltmr5naBE%2BQdbDUJsAN43O6ynW2h9Hy3uluYaF4%2Bk2sJANmU2SGqhR%2Fztwm8XvjcZygKvjgb%2F2aooBneSy%2FwU0nbb9826FmiaHYu9J%2B6muunGWSVbhPqadcN2Y31FDlknJlzROSQhG9btT2kIS2pTQ1d9xddbvfHX4l3G0y%2FbPjQ%2BPtM4B0177mMJla24clMW6RQN0Izz2rUBQ9%2BSznNCRmo15EW9X4208%2FDmPNqkBGyqrNmsbEm0%2FIk%2FBn8M%2FlhkQPC7f6U6CFDBMfC4NuOibjrrOf2PAXPjtjup2KdyR0%2FpOasTlnvuOLy9pPk2yEMmuLVYDHdenvY3wKnadAyJP8Mr8BHS7%2FiIo8WaVf%2BiB9P0i2hsLV27plGJnTor0ageMc2nWlEj%2Fm0kv0mErJjjfKstAPQh%2BhchLoNcht9N35kao4mj4jQutYFfv%2BGvwS9MDNhERm6NhF3qd5w7UaPCuFfix%2By7M2s%2FsW7JdtRNk%2Fy27dQXrMKbVUpghWxqWbnD4ikZl2WamqUovepgubKP7Y0%2FK8zix5At0vNYzOeZTzoecvGsOhl%2FDo03jFTxpVn5H8LYSV4TVzhH3HFFPvM3KukyZqNrTR23SPr0gzADeyxZmueDdc7gt%2FhvKFbEz1%2FgS%2B56yS3R%2BTMb6YOp%2BA091TUjOs1Qg%2F8ScOVyDYns2gxdVQW3g5r4p64HsAtUou3CugkfT5Kw%2F%2FUFhP4cMyJ%2BDf5y4Zez0tGtbjGZHQE1t8w3xMv6mjI5jqzaLLURi88tptZARu%2FKZ%2F9HgLIHOMViWwn6kMJUKnjZaej%2BSjQuk%2BECe0rs%2Bwv%2FEP8s%2BlLSLlhki0TTFsBBy30HTDMzTozvk9lW1Mmd00gwFr8Ch2zOBjLbsbnbBvTjjDlVpEhCrkL0yncGN9bzy5K5AhH8%2BsJfxS%2Bb%2B71QuFMlyQDIeuTO7CNVoqGXR0PQET2kJM7CtKFAdkoQftYgGp9inKxMhP%2Fdl62fDMF6JSLk3yn8l83rygiCryX%2Bwl%2BLxMTzm4qG3yaryeuAUQ5xgBazi3b1tVHXAmQBI9s7WTxTBciq50f24NCBxjE4DyzgV%2B%2FjKgHbmjOK4Cspbv3CX25v%2FJNYmwHiF%2Fqc1T1hTtd9xKm5%2BSi1sqqLTUeEz%2BdYW%2Be%2BvcMEC9uV05TiNhRLq4Z7IIw9%2B9q1GUyLUFmJdrvnSfrlPaLGP%2FCX0jAWrBTGYqK9BhjajFYGLleqT%2B6Gd9mVZTWp40dMnrwONzNLhIvGiYQANZ%2FmjYSu1dtKyGNNMKWfnXTy4QD45Rf%2BRELW9HBqUokLvyeVXrXYtoVV%2B7S%2FjQWKUdH4bLP7hQxLCT0stMS9vLbNyovFEKqjFzCWzMpNw2pS2dwaosTbI1qL0RQUsuwIfi1D8BGZdEj62AuYDP%2BUJKAPIVE22BCnxsO6z31FNTWt2O9kU%2FnLJFdkCGjhvk3aUJgDREnMtuJj0jc0YEEEKmoj%2FWw9zVVfPP%2BDbzmQjVy2BKpbZ63gm3NfDkzbh6PBkloAnViTKSA22BHjWQZEVvHisthqjIhipQ2b%2FaXxrx1iRoMU6AkSTsoZpF1CYaxzcorxjS%2F3C0NqEEy1Bs1LNiPXaz%2FKmIYPRkVxPK14mAnFaRiisMxdyicBgntm7esQCbHEX5MdjaB1xre%2BYXnzta1bzqc5b%2Bpu8in%2B9onf4WL6vsirE2ZQNKDK89VJWvszWISHKc5n82%2F8V7PIkP4ImzBo0SJRtRjlWYGxl6UW68YGRk1kbK8boTCPTjjPD94Sf77wh%2BA%2FqIsV63KMmV4EKRsqjqNhNalCqDQ2u5CjxLibdSjAfNpQZk6HZEfmesdM3Ouib8F5MEmELKXthMRtNONC3hB%2BxNU8CWzT3%2BlEy7%2FwzyH4rdCJ1rjl5BddS7uaW8rbAQYk3OPIwJjlnVYTrmsISAr0Z9ioFZWnx5XNtspVJfJMRRg5gxxAWkqwsiWLEHnrwqgBQnvhj1Gb4GvO8IkaA1PGtaRpawmDq2cnLg59gR3QAKmCUc63V7Qcnxn5qGsxCQG4YuGr1d2kAfP9qkhoWSw45w%2FALVJd1h6xwY7qMacf%2BGWQBAZhvm0nVvkyizbUjjrbEoN95n1papFYGO5EvvkASSwraW4MhvPnjumr29rdoRwtS2XrwE8ULKViPRl%2FaRZm%2FUc6BOX%2Bid%2Fe%2BMBXQzJp3NLRTBwhQ72csssgoiWISYkvySjDo1YSbq%2BkK%2BmWzwO0OA2MYuvNvI1RHFZTvjlm%2FlYOvoMrqcCeSw%2F%2BMv7EL%2B5NXZBQxVPVlwnN6Kp300btrYS0mGZMEpnXVKGYKrwPmuvnrwH6q%2FPftEumGBbnpUI3pqC9Mm%2Bm1XDcGHQ1pJhH8Mff%2BK3UyivhMIyQu6m%2BmPYpXBaOefokPQSqyzWZZvXqnggnSboxhefmWPqVKXsf3CwI8yTN4NZa5VPamRjebnXOppyuu%2FyBnzY9qCgpb7k5Lb0m%2B9vpH9RmKUu96y0WHULoe8mlbG2nXWmRPwqXPwPZ7cf2yQBqPPXKPK24ne6g2JPz5E%2BdO94dc%2BhZOZmT%2BFPwE2m24JdsoKWkkRIu3gwY8xInOtSYHBOybO5JGmRapdvR17XUNbpidnW5mq0fCur2xoir3NPpgRwIfxoCaaKlSaJwnq51EP%2F%2BD77htvULS%2B1lPhgVGuie7DjGwnndivQLzVFTiGj%2Bj6Yqz75h5Qf%2Bw6paAEW0N8wsC4GEfBU8J9rIZzSUJRhAqoyAtiq%2BfaELfw9%2B%2Fzp%2F67G%2Fz9%2B6HTl%2Fq3%2BdvzXsOm6v5fP8rSlGN6WZnL81vs%2FfGv7j%2FK1WX8WzH%2Bdv7S%2F8dX%2Fj38ror%2BP9y%2Bv8q8TFZX2fv%2FUw5QC3%2Fl%2FnbzHC%2B%2Fyt6X3%2B1vTX%2BVv66ev8rZmR9EG%2Fz9%2Fqbss3B3qfv%2FX4fv4WlDHhz76Or%2FO3hq%2Fzt9py%2FDx%2F67ydinYk%2FMRwER1%2FO39ruc7fuvZ2X%2BdvQfZf%2BDl%2F69%2Fzr1q9VM1Y633%2BVr%2FO35KlOEG7WDl%2Fa7xCy8vqFKtmcwQ5rcM0x%2B1gfT9%2FS3u1zj%2FP3%2Brv87%2B%2Bn79Vfp6%2FxZpJ%2FDqoX%2BdvWVbzwpIB%2Be%2F5W7zbsh1Rsfl5%2FtY6v87fal%2Fnb%2B2%2Fzt8qUYHM59%2Fzt2qPgf92%2Ftb%2BPn%2FLJGvV1i3Ysh%2Fnb92lxlS%2Fnb%2B1%2Fnn%2BluFO06qbsSZ0Z8QLv1z4vPLz%2FK3p8%2FytcGk1j4xI%2FnH%2Bll7dpk2%2BEZ%2BFcZ%2Fnb%2B2f52%2Bh%2Bqaaofdy%2FM%2Fzt%2BCJONyI4pfjz%2FOv%2Bp%2Fnb%2B3sztLDrMzVlpc8%2F%2B%2Fzt%2BbX%2BVvZmqch%2FXH%2BVvbIvM%2Ffeoo%2Ff%2BEXuUbSbp%2BGD9%2FO3xKlgfif52%2BNX%2Bdvubzv52%2FZYI7qaKO414ef5295GZeINZodG%2BzOfPh5%2FpZbp%2F8%2Bf2t8n7%2FVf5y%2FdYZLvX2dv7V8O38rmU6PW3FeVC%2F%2FPX%2BLaft28Pdf%2BLUy5%2F88fwshisFqWor3%2BVtl0Dx9nr9V%2Fzp%2F6%2FZ5%2Flb96%2FytpLvT1QDZ%2F%2Bf5W%2B%2Fzr7Llt%2F11%2Ftb6On8rWzjLP%2BdvwUztDuv59%2FytYUsh%2FH3%2BVqu%2Fzt9qP8%2Ffep9%2FtbzOv4oNWZNH9EX%2B%2F3H%2BVvrlad2ZOFTCF3v0uxHv%2F%2F%2F5WyzvB%2F7yz%2Flb7%2FOvjhH90kte52%2Bdr%2FO3kDTrC0k%2F%2BCIM%2BXn%2BVvnz%2FC1M2D%2Fnb2GIDZL0w2X9hm8PK%2Fi9RM3L7%2FO3spPvj%2FO3xn%2FP37KCj8C%2Fz9%2BCJ3Dh9%2FlbLuZ9%2FhaPi2QK8xf%2Bo5y%2Fz796zX12A3WoILc%2Bz9%2Fac%2F6WvANTGTXqfZ%2B%2FlbQDiXXX9LPh6WMC0pr4fv7W%2BD5%2FC9v0G%2F86f%2Buf8694Xht3tn%2FP3%2BIlrjVZqYXyovbnCEpdRHoD387fWm0V9LTW6uf5W%2Btf52%2F16Rs%2BQvft%2FK3%2B%2Ffyt8%2Bv8rfQ4tT320vVwVqA%2Fz98C%2F5%2Fzt%2Bbv528xm8%2Fzt7br%2FC1uupjX%2BVvD1%2FlbdfrCt46jF8ooCJ%2FRdY1rfJ%2B%2FxTJ6jPzv87fOr%2FO3CIjz4NXo%2Bjx%2FSwF%2F%2FK%2Fzt1Zl%2B%2Bv8rfmNX2KrDck8S6lifTVs9gdvh96GpUsdLCPW49rf06pBfPNCbpwF9ibaqBd0P6dpqdMz6kCrqjORQW2MemjGeNb6C5bgjT%2BPc%2FBhyv8DqwxXidZlQJ4AAAAASUVORK5CYII%3D);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACKBAMAAAAzozlYAAAALVBMVEXt7e3q6urs7Ozv7%2B%2Fo6Ojp6enx8fHw8PDl5eXm5ubn5%2Bfk5OTi4uLj4%2BPu7u4xuJpqAAAMdElEQVR4Xr3bUY3sOruE4ZdCUSgKReGj8FEwBVMwBVMwhVAIhVAIhjMze5Z%2BaW8t6Vx1xVGS7ihPX1ruFPd9r%2Ft%2BNChU%2B1r3eu7nWbW7XHW2fF3tdy1qatW113Wv%2FaxDPWut3ds6W7X3rt2r1q4Nqt61cvduDUCXooxPc4xJUe%2F33Z199M149bq%2ByF6n8Dyr73WX7efac2SMjJ%2FM%2BTVmxpz8czV%2BB5vDnPq5nMmYa2QMf5rLUyOlVefc8lO711nSsWeyFtora2kmros5JmO85AVov6GSgFRWUyCJofHNJ5qZ1RYPScinufGbOef3YaMk20aibdGUeqvbNITL86ikqpLOPrV11KZassuiuhvZIhgMwbKBT3OWWt2INH5ica3cRkYF3i21ZGNewTXrm6KE5JLKapXAaoSt8gZABmNAAPo490siyajmELIBYwBKotQCAdh76iclIaskNVg%2F8VZJ9dyAFILhjwL%2BNIf4395ntnGKGOQ%2BtH88FwaEFUoWllT8IEiXSt1So6ieBUBsDCRCiHyeExIGLF2MahcIYRkKmZZlC8tzlVsSMugnLuxSlS2rW93nEQYDYAMWgD7OFfAKgrj3KNMABgF0t10tJCSDBmVUQn9AWiroXTg1xXUBFNgCDHaE%2BTwXjIG3rqtaNkIyACkDSDqRDeCJZEkggbuolqogKFQW11Js7MYY2RYCf5yzZDCSrr3a3VjGIdi8QNMBAMSYR%2FoB93KpSqhLRkiimue%2BHzCEEOeFCRD4NDfJ7wbJuLTO%2FZxzX6dXc85zX891f%2BW5rlrrujnX2tf62s4S8mmWemZqBrz3rnZf67qe62tf6%2Fri1%2FWVVfvT3H0%2Fe529dM5Z%2B8m4%2FzWdoOZQJfONMsjektSH1lm1z1e2uuuc2quWrrX3EjTZz3Ub9lM1t3OaT3Pjf5mCmfmv6cRIuDIyZ%2BacGjPe6jFHpueY%2BZnpnQEYa4EhmRC%2FY%2Fx8m9FzfG%2Fj0xwmLRlUAJf%2FNZ2Ys%2B85MjOJvslR38CAKBGE6VN1GkStLqm7Ca9UkjpMJvcw89OcQIBxAKR%2FTSd%2BgPFiLAwvFU%2FU2EgA2r4RBNkFgAC3YwCMr7li%2BDSHQYZgY4n%2FTCcmQVBUGtQBCAAIGXJFArDVwiBApjDiBd%2BzQB%2FnfkVkgGBACBmBEaNj20I0tknhVzQF6pTX4pVEgQ1GYBAGDLLuwYCPcw4SAvNnlxEGwCqNMgJLGAzTgGbHSCD3OjQAaUkQAQj%2BeH2fBOXTnBCCKPgPCQYjUG%2BG6vcC4x9IACAMavoKfiFJyyJLAAUG2aHvHoHPcyAFI0ODhBAyEuDDKNMoLlrg5sgIGwzA2aF%2F8ZKQAVBkBOy9UCLzaQ5kCwUwRGAQAdmnN0FhOhTCAAZLhkhggYQJgGQjgNfmTxaMoPlpTq1aalWVu6r3V87u1rLx1p5bquu0unp3Nc8%2BZ%2Feus3SdUq3ez6madRqvpTI29qluyWps9li%2B0Ke5636es3Z9jaLU59vTqdq1VKe0l%2Fr08tl1zppaa8mwHq0665xa9ZDT51rrfI1nrPWIfVHMZMyqtdZeWVZ9mntnooTfFbXMn5N8n2t%2BZcyR30%2B%2Fb8j8Pv3fBMpFGJTq7L16SGOJ%2BRVm4m9vhCSw2fo01%2BLYOmsyMjQDsosAmUpJklXQJTFGjlTqtbe0H1Vl7y29zRzsyl6ZSWKUgER%2BQo%2Fk01zJBsR8xpBUqlL7nPoa3bIsWQ3V8nzmPDsaKQSpFzBquUu01HjMDRggyKAAL%2BPweQ6pAD2dKqllUfoTdzeocCP7zuVy4iUlUQQlA4qyBRnDCoASRwITAEkf55Ao1HmuSKo%2FFJJVpqgWpdMlc4%2FCRKdmocgigSABUkC3a4IggCFGCCM%2BzjUgq%2Bbas2QJVCokNdVHqlYJY1QXJQlQDkTIIHhBZBIyh8cLhvxSIAAqn%2BZakkrAc6f0neIPSJdbP4B%2BDuveEiJhVggSQjKRUmGCYAcS0ATzG8V8miuBxBT3mt3%2BBSXJjeqfrSRM0FVTAIgt4hgkQzbWfENNavAnSKYRxuLjXGO1utb17Kl%2FGCFhSZQsyQDg7b1XvJ%2BNAMmFYgAMQL1w7XuGvATya%2F7SH%2BfkBMYYGVS7JKkv9e6S1Ja%2FU6TEde2MquuMidEEJckkmUBIILkfX%2Ff%2BWcpaz7r2Ps%2B11qXr7E9zz%2FOzVrae9Vx77e%2B71jpXXFxTN00mRNnLp9jPtfuqc3HW3ednxe7qGS3fc83aW8%2B%2BLpZXzZXnynqkOad6LPNpjj7nOl%2FirtXe7m5JV51Ve9U51FGvtdepfa2qklPTP%2FOor2SSmacUdml6Dt9FwhgAY4qfG2P6UJ%2FmWl3lbvdV%2B6Jb3SWCMDDEZQjsEYAQEqnV2iVnJj4u4YxkkjEmAHMm4GQMMGTvfJpTd9vCDWAaGwyIoO5LE3UjLFkWLbbckmD3WquvnRkoVOq2ZYEkkBEQAff4PCdoAViENAITCMHe1w5GlJEksFvVgKUmDayGIJqSBA7B6NcBMLn2%2BDTXclkRAAgHgBBb8nPvGUCvrHYhJGwkN6%2F1mmQdJlalS8xgCgmAEEDgvsmnOdNSFQIwCCELgIRn6cRCyG61UCM3CFESGK%2FOFNQQNUJBRyBBWYCj%2BMr4NEchgY2NgvlNhOnz1Ajgni4bdamxoWUsIbDqHavU%2FWhKJxaWMWqAQDD3zKc5VTkUSIJGELAkJPm6NCKpo2VLxxIGi6k61V2mlzKpS4wkJJIEAA0gUSDBpzmkkkCy9BIAy9jAy7U8AxYtoY6VEPCsNlgYP%2Fttqia5BFIHKIQSCEg4%2B3k%2Bzd1PgZHkrtY65%2Bx91rmu%2ByfPmJSSAH5lW71L676ulttm%2BrnT5ymVL88WNUM01huBsAOxn8qnOTJyPz8Pvvz%2Fehftuq99zjq7r%2Fs36Vvnun9%2B6znPc59dV9%2B5v6Lruqr3WZutT3NjDJIwYxKzCsuaM%2FFOgrCt1um2TcnT%2FiIG53p2Le7qvVoInAhCkhBswDqbLjd35dOc1TYyct7RIUSgbTJHIInm5Jxnda%2FTS%2Bte1zvumyvpo8M69rk1K374Xc3DlWtQrPJp19rXHh%2FnyhIIwHiDWu2SjWTJbWiVsb3W1fu6G9qwtdccs9fqdXXS0hXa7t5rRvpSC97GhV%2FW6E9zIDCAzFtHqi5bMsLYtii3JdH2uS6MMCDnvu%2B9luelKG8rMbI7zphDObEkI%2BM96tOcu1WS1RI%2B4ypK30FyA8KWGstY57pny9hGFtAANMAhkTCckIjmyJREO5XSp7mi1CUsgc%2B13aC2tA2WkBAygFnXNUG2DCoMIGEDSVmAs6kZW3S7bGj8nU9zlmhZsqpd5Qa%2FgIVBlmRhA4jrHkOWDBbmNxECbgJTUF7TqF8ZhFBorE9zEAy2ZVh4l2xhDMI2phH%2BDlfm%2FMMIBcDwmgJHMIPZrTlFY3BhAwI%2BzTXEQi0BfUrYlqQW4BJgjA1n7z2nbSAgfhM0AzBrFiLHexRIQNkSLX%2BeAxL3WmufvWrHdmOg1Q1uNzQYhc49R8JLSBELMGFmjDkzUQCzvGc7SKj5zZuPc6p13%2BfS0amasB7q3Gsdjmpf17N18Syvta59Lc11rnU%2FX%2Bfb2ms%2Bz37muDXyrX2ZJBeV5Hqu%2FfNOWt9%2F8n6Y%2B1tPQVF%2FaZtnrpNW7dOsEnMcztLUkC%2FP1NYYX%2BCoaxez0CtegszQufaI7%2Fs5XYj%2BMPf3ngIqrTmZY7zP9ecf0Eo0QHvMjL7GqDFGhsYML3tsJpAZ1qtn7Wt0DQ08R2rOT3N%2FrUUk4wcetU%2B%2BsB8wmeQ545988cw5MrJy9lWnKT1dqt6eGfM7P49hjPtb%2BjT3l56ChSzprkw8RhBNhzEyvwOWAiCveoxeaLoQmBc4%2B5VB8PqZV6r4NPe3ngKRkKnMOYIDwtBtF0AwQu3XkSwgfi1bCIwEANhwZwc%2Bzv2lp2ALA%2BpM0eBKp14wAAGCCCG6hVBkZMsxgPxiIxx8D83Pc%2FytpyAA5GYUFgjRgEhjABNab%2FuUIwNELQHAf6oH4I9zf%2B0pgEDamhIyxjE2mmCMIkQin0vuCHhLEsT%2FbTrMoHya%2B0tPwQZj9%2FGwKBRkYVAOgJEhyPQVYyBWS7D136bDxHyc%2B0tPQSEi8nlnKZqCjnCELbBl0wLeAoReQG0E%2FLd6kPl5jr%2F1FCLA6o0hxImD0WwJ07YognTeKr0GJYACxPNf1YOo3o9zf%2BkpnLOkrlU1m3U%2Fz7Pvda1anFvPvvbSVWs9W9Z8rutR1tt%2FliWfnHP%2Fq3pwUqkPc%2F8HKXwEGlzr6tkAAAAASUVORK5CYII%3D);
   font-family: 'Cuprum', sans-serif;
 }
 
@@ -48,33 +48,42 @@ body {
 .wrapper {
   margin: 0 auto;
   padding: 0;
+  margin-top: 70px;
   padding-left: 30px;
   padding-right: 30px;
   text-transform: uppercase;
 }
 
-/* line 54, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 55, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .wrapper:after {
   content: '';
   width: 100%;
   height: 200px;
 }
 
-/* line 60, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 61, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main:after {
   content: '';
   width: 100%;
   height: 150px;
 }
 
-/* line 67, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 68, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .clearfix:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 73, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 74, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+.contacts {
+  padding-bottom: 80px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACKBAMAAAAzozlYAAAALVBMVEXt7e3q6urs7Ozv7%2B%2Fo6Ojp6enx8fHw8PDl5eXm5ubn5%2Bfk5OTi4uLj4%2BPu7u4xuJpqAAAMdElEQVR4Xr3bUY3sOruE4ZdCUSgKReGj8FEwBVMwBVMwhVAIhVAIhjMze5Z%2BaW8t6Vx1xVGS7ihPX1ruFPd9r%2Ft%2BNChU%2B1r3eu7nWbW7XHW2fF3tdy1qatW113Wv%2FaxDPWut3ds6W7X3rt2r1q4Nqt61cvduDUCXooxPc4xJUe%2F33Z199M149bq%2ByF6n8Dyr73WX7efac2SMjJ%2FM%2BTVmxpz8czV%2BB5vDnPq5nMmYa2QMf5rLUyOlVefc8lO711nSsWeyFtora2kmros5JmO85AVov6GSgFRWUyCJofHNJ5qZ1RYPScinufGbOef3YaMk20aibdGUeqvbNITL86ikqpLOPrV11KZassuiuhvZIhgMwbKBT3OWWt2INH5ica3cRkYF3i21ZGNewTXrm6KE5JLKapXAaoSt8gZABmNAAPo490siyajmELIBYwBKotQCAdh76iclIaskNVg%2F8VZJ9dyAFILhjwL%2BNIf4395ntnGKGOQ%2BtH88FwaEFUoWllT8IEiXSt1So6ieBUBsDCRCiHyeExIGLF2MahcIYRkKmZZlC8tzlVsSMugnLuxSlS2rW93nEQYDYAMWgD7OFfAKgrj3KNMABgF0t10tJCSDBmVUQn9AWiroXTg1xXUBFNgCDHaE%2BTwXjIG3rqtaNkIyACkDSDqRDeCJZEkggbuolqogKFQW11Js7MYY2RYCf5yzZDCSrr3a3VjGIdi8QNMBAMSYR%2FoB93KpSqhLRkiimue%2BHzCEEOeFCRD4NDfJ7wbJuLTO%2FZxzX6dXc85zX891f%2BW5rlrrujnX2tf62s4S8mmWemZqBrz3rnZf67qe62tf6%2Fri1%2FWVVfvT3H0%2Fe529dM5Z%2B8m4%2FzWdoOZQJfONMsjektSH1lm1z1e2uuuc2quWrrX3EjTZz3Ub9lM1t3OaT3Pjf5mCmfmv6cRIuDIyZ%2BacGjPe6jFHpueY%2BZnpnQEYa4EhmRC%2FY%2Fx8m9FzfG%2Fj0xwmLRlUAJf%2FNZ2Ys%2B85MjOJvslR38CAKBGE6VN1GkStLqm7Ca9UkjpMJvcw89OcQIBxAKR%2FTSd%2BgPFiLAwvFU%2FU2EgA2r4RBNkFgAC3YwCMr7li%2BDSHQYZgY4n%2FTCcmQVBUGtQBCAAIGXJFArDVwiBApjDiBd%2BzQB%2FnfkVkgGBACBmBEaNj20I0tknhVzQF6pTX4pVEgQ1GYBAGDLLuwYCPcw4SAvNnlxEGwCqNMgJLGAzTgGbHSCD3OjQAaUkQAQj%2BeH2fBOXTnBCCKPgPCQYjUG%2BG6vcC4x9IACAMavoKfiFJyyJLAAUG2aHvHoHPcyAFI0ODhBAyEuDDKNMoLlrg5sgIGwzA2aF%2F8ZKQAVBkBOy9UCLzaQ5kCwUwRGAQAdmnN0FhOhTCAAZLhkhggYQJgGQjgNfmTxaMoPlpTq1aalWVu6r3V87u1rLx1p5bquu0unp3Nc8%2BZ%2Feus3SdUq3ez6madRqvpTI29qluyWps9li%2B0Ke5636es3Z9jaLU59vTqdq1VKe0l%2Fr08tl1zppaa8mwHq0665xa9ZDT51rrfI1nrPWIfVHMZMyqtdZeWVZ9mntnooTfFbXMn5N8n2t%2BZcyR30%2B%2Fb8j8Pv3fBMpFGJTq7L16SGOJ%2BRVm4m9vhCSw2fo01%2BLYOmsyMjQDsosAmUpJklXQJTFGjlTqtbe0H1Vl7y29zRzsyl6ZSWKUgER%2BQo%2Fk01zJBsR8xpBUqlL7nPoa3bIsWQ3V8nzmPDsaKQSpFzBquUu01HjMDRggyKAAL%2BPweQ6pAD2dKqllUfoTdzeocCP7zuVy4iUlUQQlA4qyBRnDCoASRwITAEkf55Ao1HmuSKo%2FFJJVpqgWpdMlc4%2FCRKdmocgigSABUkC3a4IggCFGCCM%2BzjUgq%2Bbas2QJVCokNdVHqlYJY1QXJQlQDkTIIHhBZBIyh8cLhvxSIAAqn%2BZakkrAc6f0neIPSJdbP4B%2BDuveEiJhVggSQjKRUmGCYAcS0ATzG8V8miuBxBT3mt3%2BBSXJjeqfrSRM0FVTAIgt4hgkQzbWfENNavAnSKYRxuLjXGO1utb17Kl%2FGCFhSZQsyQDg7b1XvJ%2BNAMmFYgAMQL1w7XuGvATya%2F7SH%2BfkBMYYGVS7JKkv9e6S1Ja%2FU6TEde2MquuMidEEJckkmUBIILkfX%2Ff%2BWcpaz7r2Ps%2B11qXr7E9zz%2FOzVrae9Vx77e%2B71jpXXFxTN00mRNnLp9jPtfuqc3HW3ednxe7qGS3fc83aW8%2B%2BLpZXzZXnynqkOad6LPNpjj7nOl%2FirtXe7m5JV51Ve9U51FGvtdepfa2qklPTP%2FOor2SSmacUdml6Dt9FwhgAY4qfG2P6UJ%2FmWl3lbvdV%2B6Jb3SWCMDDEZQjsEYAQEqnV2iVnJj4u4YxkkjEmAHMm4GQMMGTvfJpTd9vCDWAaGwyIoO5LE3UjLFkWLbbckmD3WquvnRkoVOq2ZYEkkBEQAff4PCdoAViENAITCMHe1w5GlJEksFvVgKUmDayGIJqSBA7B6NcBMLn2%2BDTXclkRAAgHgBBb8nPvGUCvrHYhJGwkN6%2F1mmQdJlalS8xgCgmAEEDgvsmnOdNSFQIwCCELgIRn6cRCyG61UCM3CFESGK%2FOFNQQNUJBRyBBWYCj%2BMr4NEchgY2NgvlNhOnz1Ajgni4bdamxoWUsIbDqHavU%2FWhKJxaWMWqAQDD3zKc5VTkUSIJGELAkJPm6NCKpo2VLxxIGi6k61V2mlzKpS4wkJJIEAA0gUSDBpzmkkkCy9BIAy9jAy7U8AxYtoY6VEPCsNlgYP%2Fttqia5BFIHKIQSCEg4%2B3k%2Bzd1PgZHkrtY65%2Bx91rmu%2ByfPmJSSAH5lW71L676ulttm%2BrnT5ymVL88WNUM01huBsAOxn8qnOTJyPz8Pvvz%2Fehftuq99zjq7r%2Fs36Vvnun9%2B6znPc59dV9%2B5v6Lruqr3WZutT3NjDJIwYxKzCsuaM%2FFOgrCt1um2TcnT%2FiIG53p2Le7qvVoInAhCkhBswDqbLjd35dOc1TYyct7RIUSgbTJHIInm5Jxnda%2FTS%2Bte1zvumyvpo8M69rk1K374Xc3DlWtQrPJp19rXHh%2FnyhIIwHiDWu2SjWTJbWiVsb3W1fu6G9qwtdccs9fqdXXS0hXa7t5rRvpSC97GhV%2FW6E9zIDCAzFtHqi5bMsLYtii3JdH2uS6MMCDnvu%2B9luelKG8rMbI7zphDObEkI%2BM96tOcu1WS1RI%2B4ypK30FyA8KWGstY57pny9hGFtAANMAhkTCckIjmyJREO5XSp7mi1CUsgc%2B13aC2tA2WkBAygFnXNUG2DCoMIGEDSVmAs6kZW3S7bGj8nU9zlmhZsqpd5Qa%2FgIVBlmRhA4jrHkOWDBbmNxECbgJTUF7TqF8ZhFBorE9zEAy2ZVh4l2xhDMI2phH%2BDlfm%2FMMIBcDwmgJHMIPZrTlFY3BhAwI%2BzTXEQi0BfUrYlqQW4BJgjA1n7z2nbSAgfhM0AzBrFiLHexRIQNkSLX%2BeAxL3WmufvWrHdmOg1Q1uNzQYhc49R8JLSBELMGFmjDkzUQCzvGc7SKj5zZuPc6p13%2BfS0amasB7q3Gsdjmpf17N18Syvta59Lc11rnU%2FX%2Bfb2ms%2Bz37muDXyrX2ZJBeV5Hqu%2FfNOWt9%2F8n6Y%2B1tPQVF%2FaZtnrpNW7dOsEnMcztLUkC%2FP1NYYX%2BCoaxez0CtegszQufaI7%2Fs5XYj%2BMPf3ngIqrTmZY7zP9ecf0Eo0QHvMjL7GqDFGhsYML3tsJpAZ1qtn7Wt0DQ08R2rOT3N%2FrUUk4wcetU%2B%2BsB8wmeQ545988cw5MrJy9lWnKT1dqt6eGfM7P49hjPtb%2BjT3l56ChSzprkw8RhBNhzEyvwOWAiCveoxeaLoQmBc4%2B5VB8PqZV6r4NPe3ngKRkKnMOYIDwtBtF0AwQu3XkSwgfi1bCIwEANhwZwc%2Bzv2lp2ALA%2BpM0eBKp14wAAGCCCG6hVBkZMsxgPxiIxx8D83Pc%2FytpyAA5GYUFgjRgEhjABNab%2FuUIwNELQHAf6oH4I9zf%2B0pgEDamhIyxjE2mmCMIkQin0vuCHhLEsT%2FbTrMoHya%2B0tPwQZj9%2FGwKBRkYVAOgJEhyPQVYyBWS7D136bDxHyc%2B0tPQSEi8nlnKZqCjnCELbBl0wLeAoReQG0E%2FLd6kPl5jr%2F1FCLA6o0hxImD0WwJ07YognTeKr0GJYACxPNf1YOo3o9zf%2BkpnLOkrlU1m3U%2Fz7Pvda1anFvPvvbSVWs9W9Z8rutR1tt%2FliWfnHP%2Fq3pwUqkPc%2F8HKXwEGlzr6tkAAAAASUVORK5CYII%3D);
+}
+
+/* line 81, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title {
   position: relative;
   width: auto;
@@ -82,48 +91,48 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 100px;
   font-size: 50px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Kaushan Script', cursive;
   line-height: 80px;
   color: #8B7D6B;
   text-transform: uppercase;
 }
 
-/* line 88, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 96, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title a {
   text-decoration: none;
-  color: #8B7D6B;
+  color: #993300;
 }
 
-/* line 93, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 101, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title:after {
   content: "";
   position: absolute;
-  width: 70%;
+  width: 60%;
   height: 1px;
   top: 50%;
   margin-top: -1px;
-  background: #8B7D6B;
+  background: #993300;
   right: -60%;
 }
 
-/* line 104, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 112, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .title:before {
   content: "";
   position: absolute;
   top: 50%;
   margin-top: -1px;
-  width: 70%;
+  width: 60%;
   height: 1px;
-  background: #8B7D6B;
+  background: #993300;
   left: -60%;
 }
 
-/* line 115, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 123, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .phone {
-  font-size: 40px;
-  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   line-height: 40px;
   color: #8B7D6B;
@@ -132,10 +141,10 @@ body {
   margin-right: 30px;
 }
 
-/* line 126, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 134, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .mail {
   font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   line-height: 40px;
   float: left;
@@ -143,7 +152,7 @@ body {
   margin-left: 30px;
 }
 
-/* line 136, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 144, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .name a {
   font-size: 20px;
   font-weight: 400;
@@ -155,25 +164,29 @@ body {
   color: #8B7D6B;
 }
 
-/* line 147, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 155, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .mail a {
   text-decoration: none;
   color: #8B7D6B;
 }
 
-/* line 152, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 160, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .name a:hover,
-.mail a:hover,
-.title a:hover {
-  color: black;
+.mail a:hover {
+  color: #993300;
 }
 
-/* line 158, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 165, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+.title a:hover {
+  color: #8B7D6B;
+}
+
+/* line 169, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 img:hover {
   box-shadow: 0 0 10px #BDB76B;
 }
 
-/* line 162, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 173, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 footer {
   position: absolute;
   bottom: 0px;
@@ -184,33 +197,39 @@ footer {
   opacity: 0.7;
 }
 
-/* line 172, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 183, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .info-right {
   float: right;
   margin-top: 15px;
   margin-right: 30px;
 }
 
-/* line 178, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 189, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .info-left {
   float: left;
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 184, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 195, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+.date {
+  margin-top: 15px;
+  color: white;
+}
+
+/* line 200, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .share {
   margin-top: 15px;
 }
 
-/* line 188, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 204, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation {
   position: relative;
   padding: 0;
   font-size: 0;
 }
 
-/* line 195, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 211, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation li {
   display: inline-block;
   width: 20%;
@@ -219,7 +238,7 @@ footer {
   vertical-align: top;
 }
 
-/* line 205, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 221, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation a {
   display: block;
   font-size: 21px;
@@ -231,33 +250,33 @@ footer {
   outline: none;
 }
 
-/* line 219, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 235, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .nav-a a {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-/* line 224, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 240, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .name-a a:hover {
   color: black;
 }
 
-/* line 228, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 244, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture .name-a a:hover {
   color: black;
 }
 
-/* line 232, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 248, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .main-navigation a:hover {
   color: #8B7D6B;
 }
 
-/* line 236, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 252, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .current {
   color: #BDB76B !important;
 }
 
-/* line 240, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 256, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my {
   display: inline-block;
   vertical-align: top;
@@ -266,20 +285,20 @@ footer {
   width: 360px;
 }
 
-/* line 248, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 264, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my-collection {
   width: auto;
   text-align: center;
 }
 
-/* line 253, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 269, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my-category {
   display: block;
   vertical-align: top;
   margin: 0 auto;
 }
 
-/* line 259, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 275, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my-category .img1 {
   display: block;
   width: 80%;
@@ -287,23 +306,23 @@ footer {
   margin-bottom: 30px;
 }
 
-/* line 266, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 282, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .my_show {
   margin: 60px;
 }
 
-/* line 270, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 286, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture2 {
   width: 360px;
 }
 
-/* line 274, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 290, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture_show {
   float: left;
   width: 65%;
 }
 
-/* line 279, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 295, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture a,
 .picture2 a {
   display: block;
@@ -317,7 +336,7 @@ footer {
   outline: none;
 }
 
-/* line 295, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 311, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .info-left a {
   font-size: 20px;
   font-weight: 700;
@@ -326,72 +345,72 @@ footer {
   color: #8B7D6B;
 }
 
-/* line 303, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 319, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .picture .name-a a {
   text-align: left;
   padding-left: 30px;
 }
 
-/* line 308, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 324, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .more {
   position: absolute;
   width: 18%;
-  bottom: -40px;
+  bottom: -90px;
 }
 
-/* line 314, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 330, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .more a {
   font-size: 10px;
   font-weight: 400;
 }
 
-/* line 319, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 335, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .img2 {
   width: 300px;
   margin: 0 auto;
 }
 
-/* line 324, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 340, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .img {
   width: 90%;
 }
 
-/* line 328, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 344, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text2 {
   width: 300px;
   margin: 0 auto;
 }
 
-/* line 333, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 349, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .left {
   float: left;
 }
 
-/* line 337, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 353, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .right {
   float: right;
 }
 
-/* line 341, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 357, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text_show {
   float: right;
   width: 30%;
 }
 
-/* line 346, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 362, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text p {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
-/* line 352, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 368, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .text_show p {
   font-size: 16px;
   font-weight: 700;
 }
 
-/* line 357, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 373, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general-head {
   font-size: 18px;
   line-height: 21px;
@@ -401,7 +420,7 @@ footer {
   padding-top: 40px;
 }
 
-/* line 367, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 383, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general-technics {
   font-size: 14px;
   line-height: 32px;
@@ -410,18 +429,18 @@ footer {
   margin: 40px;
 }
 
-/* line 376, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 392, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general-technics a {
   text-decoration: none;
   color: #8B7D6B;
 }
 
-/* line 381, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 397, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general-technics a:hover {
   color: black;
 }
 
-/* line 386, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
+/* line 401, /Users/ekaterinashemerey/gallery/app/assets/stylesheets/application.css.scss */
 .general a:hover {
   color: black;
 }

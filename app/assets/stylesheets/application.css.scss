@@ -94,17 +94,17 @@
 
 .title a {
   text-decoration: none;
-  color: #8B7D6B;
+  color: #993300;
 }
 
 .title:after {
   content: "";
   position: absolute;
   width: 60%;
-  height: 2px;
+  height: 1px;
   top: 50%;
   margin-top: -1px;
-  background: #8B7D6B;
+  background: #993300;
   right: -60%;
 }
 
@@ -114,8 +114,8 @@
   top: 50%;
   margin-top: -1px;
   width: 60%;
-  height: 2px;
-  background: #8B7D6B;
+  height: 1px;
+  background: #993300;
   left: -60%;
 }
 
@@ -157,9 +157,12 @@
 }
 
 .name a:hover,
-.mail a:hover,
+.mail a:hover {
+  color: #993300;
+}
+
 .title a:hover {
-  color: black;
+  color: #8B7D6B;
 }
 
 img:hover {
@@ -186,6 +189,11 @@ footer {
   float: left;
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.date {
+  margin-top: 15px;
+  color: white;
 }
 
  .share {
@@ -388,7 +396,6 @@ footer {
 .general-technics a:hover {
   color: black;
 }
-
 
 .general a:hover {
   color: black;
